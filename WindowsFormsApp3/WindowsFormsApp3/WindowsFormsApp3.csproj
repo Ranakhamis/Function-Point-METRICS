@@ -52,6 +52,12 @@
     <Compile Include="Factors for DI.Designer.cs">
       <DependentUpon>Factors for DI.cs</DependentUpon>
     </Compile>
+    <Compile Include="LOC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOC.Designer.cs">
+      <DependentUpon>LOC.cs</DependentUpon>
+    </Compile>
     <Compile Include="TCF.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -9,3 +9,14 @@ C:\Users\Rana\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFo
 C:\Users\Rana\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
 C:\Users\Rana\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
 C:\Users\Rana\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+D:\First Term - 4th Year\SW Metrics\Project\MY-METRICS\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+D:\First Term - 4th Year\SW Metrics\Project\MY-METRICS\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+D:\First Term - 4th Year\SW Metrics\Project\MY-METRICS\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+D:\First Term - 4th Year\SW Metrics\Project\MY-METRICS\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+D:\First Term - 4th Year\SW Metrics\Project\MY-METRICS\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Factors_for_DI.resources
+D:\First Term - 4th Year\SW Metrics\Project\MY-METRICS\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+D:\First Term - 4th Year\SW Metrics\Project\MY-METRICS\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.TCF.resources
+D:\First Term - 4th Year\SW Metrics\Project\MY-METRICS\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.UFP.resources
+D:\First Term - 4th Year\SW Metrics\Project\MY-METRICS\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+D:\First Term - 4th Year\SW Metrics\Project\MY-METRICS\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+D:\First Term - 4th Year\SW Metrics\Project\MY-METRICS\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb

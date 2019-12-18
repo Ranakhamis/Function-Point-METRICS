@@ -103,5 +103,12 @@ namespace WindowsFormsApp3
                 Value += 10;
             }
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            TCF tcf = new TCF();
+            tcf.Show();
+            this.Hide();
+        }
     }
 }

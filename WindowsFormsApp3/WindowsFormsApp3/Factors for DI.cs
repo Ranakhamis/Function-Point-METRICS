@@ -12,7 +12,7 @@ namespace WindowsFormsApp3
 {
     public partial class Factors_for_DI : Form
     {
-        public static int TotalDI = 0;
+        int TotalDI = 0;
         public int SumComboBox(ComboBox name)
         {
             int Value = 0;
@@ -74,17 +74,18 @@ namespace WindowsFormsApp3
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void pictureBox1_Click(object sender, EventArgs e)
         {   
-            TCF tcf = new TCF();
-            tcf.Show();
-            this.Hide();
+            
+            
+            //if (comboBox1.SelectedItem.value = 0 )
+            //{
+            //    Val = 0
+            //}
+        }
 
+        private void TCF_Button_Click(object sender, EventArgs e)
+        {
             TotalDI += SumComboBox(comboBox1);
             TotalDI += SumComboBox(comboBox2);
             TotalDI += SumComboBox(comboBox3);
@@ -99,10 +100,24 @@ namespace WindowsFormsApp3
             TotalDI += SumComboBox(comboBox12);
             TotalDI += SumComboBox(comboBox13);
             TotalDI += SumComboBox(comboBox14);
-            //if (comboBox1.SelectedItem.value = 0 )
-            //{
-            //    Val = 0
-            //}
+
+            // Total DI 
+            DIBox.Text = TotalDI.ToString();
+
+            // TCF 
+            TCFBOX.Text = (0.65 + 0.01 * double.Parse(DIBox.Text)).ToString();
+        }
+
+        private void FP_Button_Click(object sender, EventArgs e)
+        {
+            FPBox.Text = (UFP.PassedUFP * float.Parse(TCFBOX.Text)).ToString();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            LOC loc = new LOC();
+            loc.Show();
+            this.Hide();
         }
     }
 }
