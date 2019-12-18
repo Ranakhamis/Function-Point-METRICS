@@ -39,16 +39,16 @@
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.EIFRADIO = new System.Windows.Forms.RadioButton();
+            this.ILFRADIO = new System.Windows.Forms.RadioButton();
+            this.EINQRADIO = new System.Windows.Forms.RadioButton();
+            this.EORADIO = new System.Windows.Forms.RadioButton();
             this.EIFBOX = new System.Windows.Forms.TextBox();
             this.ILFBOX = new System.Windows.Forms.TextBox();
             this.EINQBOX = new System.Windows.Forms.TextBox();
             this.EOBOX = new System.Windows.Forms.TextBox();
             this.EIBOX = new System.Windows.Forms.TextBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.EIRADIO = new System.Windows.Forms.RadioButton();
             this.EIF = new System.Windows.Forms.ComboBox();
             this.ILF = new System.Windows.Forms.ComboBox();
             this.EINQ = new System.Windows.Forms.ComboBox();
@@ -160,49 +160,49 @@
             this.textBox6.Size = new System.Drawing.Size(100, 20);
             this.textBox6.TabIndex = 88;
             // 
-            // radioButton5
+            // EIFRADIO
             // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(541, 351);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(119, 17);
-            this.radioButton5.TabIndex = 87;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "New EIF Complexity";
-            this.radioButton5.UseVisualStyleBackColor = true;
+            this.EIFRADIO.AutoSize = true;
+            this.EIFRADIO.Location = new System.Drawing.Point(541, 351);
+            this.EIFRADIO.Name = "EIFRADIO";
+            this.EIFRADIO.Size = new System.Drawing.Size(119, 17);
+            this.EIFRADIO.TabIndex = 87;
+            this.EIFRADIO.TabStop = true;
+            this.EIFRADIO.Text = "New EIF Complexity";
+            this.EIFRADIO.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // ILFRADIO
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(542, 299);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(118, 17);
-            this.radioButton4.TabIndex = 86;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "New ILF Complexity";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.ILFRADIO.AutoSize = true;
+            this.ILFRADIO.Location = new System.Drawing.Point(542, 299);
+            this.ILFRADIO.Name = "ILFRADIO";
+            this.ILFRADIO.Size = new System.Drawing.Size(118, 17);
+            this.ILFRADIO.TabIndex = 86;
+            this.ILFRADIO.TabStop = true;
+            this.ILFRADIO.Text = "New ILF Complexity";
+            this.ILFRADIO.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // EINQRADIO
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(541, 249);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(132, 17);
-            this.radioButton3.TabIndex = 85;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "New E INQ Complexity";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.EINQRADIO.AutoSize = true;
+            this.EINQRADIO.Location = new System.Drawing.Point(541, 249);
+            this.EINQRADIO.Name = "EINQRADIO";
+            this.EINQRADIO.Size = new System.Drawing.Size(132, 17);
+            this.EINQRADIO.TabIndex = 85;
+            this.EINQRADIO.TabStop = true;
+            this.EINQRADIO.Text = "New E INQ Complexity";
+            this.EINQRADIO.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // EORADIO
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(542, 200);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(118, 17);
-            this.radioButton2.TabIndex = 84;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "New EO Complexity";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.EORADIO.AutoSize = true;
+            this.EORADIO.Location = new System.Drawing.Point(542, 200);
+            this.EORADIO.Name = "EORADIO";
+            this.EORADIO.Size = new System.Drawing.Size(118, 17);
+            this.EORADIO.TabIndex = 84;
+            this.EORADIO.TabStop = true;
+            this.EORADIO.Text = "New EO Complexity";
+            this.EORADIO.UseVisualStyleBackColor = true;
             // 
             // EIFBOX
             // 
@@ -239,16 +239,17 @@
             this.EIBOX.Size = new System.Drawing.Size(121, 20);
             this.EIBOX.TabIndex = 79;
             // 
-            // radioButton1
+            // EIRADIO
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(543, 151);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(113, 17);
-            this.radioButton1.TabIndex = 78;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "New EI Complexity";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.EIRADIO.AutoSize = true;
+            this.EIRADIO.Location = new System.Drawing.Point(543, 151);
+            this.EIRADIO.Name = "EIRADIO";
+            this.EIRADIO.Size = new System.Drawing.Size(113, 17);
+            this.EIRADIO.TabIndex = 78;
+            this.EIRADIO.TabStop = true;
+            this.EIRADIO.Text = "New EI Complexity";
+            this.EIRADIO.UseVisualStyleBackColor = true;
+            this.EIRADIO.CheckedChanged += new System.EventHandler(this.EIRADIO_CheckedChanged);
             // 
             // EIF
             // 
@@ -259,10 +260,15 @@
             "",
             "Complex (10)"});
             this.EIF.FormattingEnabled = true;
+            this.EIF.Items.AddRange(new object[] {
+            "Simple (5)",
+            "Average (7)",
+            "Complex (10)"});
             this.EIF.Location = new System.Drawing.Point(230, 348);
             this.EIF.Name = "EIF";
             this.EIF.Size = new System.Drawing.Size(121, 21);
             this.EIF.TabIndex = 77;
+            this.EIF.SelectedIndexChanged += new System.EventHandler(this.EIF_SelectedIndexChanged);
             // 
             // ILF
             // 
@@ -273,10 +279,15 @@
             "",
             "Complex (15)"});
             this.ILF.FormattingEnabled = true;
+            this.ILF.Items.AddRange(new object[] {
+            "Simple (7)",
+            "Average (10)",
+            "Complex (15)"});
             this.ILF.Location = new System.Drawing.Point(230, 294);
             this.ILF.Name = "ILF";
             this.ILF.Size = new System.Drawing.Size(121, 21);
             this.ILF.TabIndex = 76;
+            this.ILF.SelectedIndexChanged += new System.EventHandler(this.ILF_SelectedIndexChanged);
             // 
             // EINQ
             // 
@@ -287,10 +298,15 @@
             "",
             "Complex (6)"});
             this.EINQ.FormattingEnabled = true;
+            this.EINQ.Items.AddRange(new object[] {
+            "Simple (3)",
+            "Average (4)",
+            "Complex (6)"});
             this.EINQ.Location = new System.Drawing.Point(230, 244);
             this.EINQ.Name = "EINQ";
             this.EINQ.Size = new System.Drawing.Size(121, 21);
             this.EINQ.TabIndex = 75;
+            this.EINQ.SelectedIndexChanged += new System.EventHandler(this.EINQ_SelectedIndexChanged);
             // 
             // EO
             // 
@@ -301,10 +317,15 @@
             "",
             "Complex (7)"});
             this.EO.FormattingEnabled = true;
+            this.EO.Items.AddRange(new object[] {
+            "Simple (4)",
+            "Average (5)",
+            "Complex (7)"});
             this.EO.Location = new System.Drawing.Point(230, 194);
             this.EO.Name = "EO";
             this.EO.Size = new System.Drawing.Size(121, 21);
             this.EO.TabIndex = 74;
+            this.EO.SelectedIndexChanged += new System.EventHandler(this.EO_SelectedIndexChanged);
             // 
             // EI
             // 
@@ -315,6 +336,10 @@
             "",
             "Complex (6)"});
             this.EI.FormattingEnabled = true;
+            this.EI.Items.AddRange(new object[] {
+            "Simple(3)",
+            "Average(4)",
+            "Complex (6)"});
             this.EI.Location = new System.Drawing.Point(230, 150);
             this.EI.Name = "EI";
             this.EI.Size = new System.Drawing.Size(121, 21);
@@ -458,16 +483,16 @@
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.radioButton5);
-            this.Controls.Add(this.radioButton4);
-            this.Controls.Add(this.radioButton3);
-            this.Controls.Add(this.radioButton2);
+            this.Controls.Add(this.EIFRADIO);
+            this.Controls.Add(this.ILFRADIO);
+            this.Controls.Add(this.EINQRADIO);
+            this.Controls.Add(this.EORADIO);
             this.Controls.Add(this.EIFBOX);
             this.Controls.Add(this.ILFBOX);
             this.Controls.Add(this.EINQBOX);
             this.Controls.Add(this.EOBOX);
             this.Controls.Add(this.EIBOX);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.EIRADIO);
             this.Controls.Add(this.EIF);
             this.Controls.Add(this.ILF);
             this.Controls.Add(this.EINQ);
@@ -506,16 +531,16 @@
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton EIFRADIO;
+        private System.Windows.Forms.RadioButton ILFRADIO;
+        private System.Windows.Forms.RadioButton EINQRADIO;
+        private System.Windows.Forms.RadioButton EORADIO;
         private System.Windows.Forms.TextBox EIFBOX;
         private System.Windows.Forms.TextBox ILFBOX;
         private System.Windows.Forms.TextBox EINQBOX;
         private System.Windows.Forms.TextBox EOBOX;
         private System.Windows.Forms.TextBox EIBOX;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton EIRADIO;
         private System.Windows.Forms.ComboBox EIF;
         private System.Windows.Forms.ComboBox ILF;
         private System.Windows.Forms.ComboBox EINQ;
