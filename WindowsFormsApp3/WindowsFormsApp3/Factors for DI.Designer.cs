@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Factors_for_DI));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox14 = new System.Windows.Forms.ComboBox();
@@ -58,8 +59,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.datacomm = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.FP_Button = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.DIBox = new System.Windows.Forms.TextBox();
@@ -68,9 +67,12 @@
             this.label2 = new System.Windows.Forms.Label();
             this.FPBox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -462,25 +464,6 @@
             this.label4.Size = new System.Drawing.Size(0, 13);
             this.label4.TabIndex = 23;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::WindowsFormsApp3.Properties.Resources.hgv;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 477);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(52, 52);
-            this.pictureBox1.TabIndex = 26;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(0, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 27;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // FP_Button
             // 
             this.FP_Button.BackColor = System.Drawing.Color.White;
@@ -558,15 +541,38 @@
             this.label5.TabIndex = 40;
             this.label5.Text = "TCF Internal";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::WindowsFormsApp3.Properties.Resources.hgv;
+            this.pictureBox1.Location = new System.Drawing.Point(23, 489);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(39, 40);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 26;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::WindowsFormsApp3.Properties.Resources.fgcf;
+            this.pictureBox3.Location = new System.Drawing.Point(855, 489);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(39, 40);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 74;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::WindowsFormsApp3.Properties.Resources.fgcf;
-            this.pictureBox2.Location = new System.Drawing.Point(839, 478);
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(837, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(55, 51);
-            this.pictureBox2.TabIndex = 73;
+            this.pictureBox2.Size = new System.Drawing.Size(79, 29);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 101;
             this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click_1);
             // 
             // Factors_for_DI
             // 
@@ -575,6 +581,7 @@
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.ClientSize = new System.Drawing.Size(916, 541);
             this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.FP_Button);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.DIBox);
@@ -583,15 +590,16 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.FPBox);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Factors_for_DI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Factors_for_DI";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -631,7 +639,6 @@
         private System.Windows.Forms.ComboBox comboBox5;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button FP_Button;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox DIBox;
@@ -640,6 +647,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox FPBox;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

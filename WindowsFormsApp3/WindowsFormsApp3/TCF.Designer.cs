@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TCF));
             this.label1 = new System.Windows.Forms.Label();
             this.InternelDI_RadioButton = new System.Windows.Forms.RadioButton();
             this.label2 = new System.Windows.Forms.Label();
@@ -40,7 +41,11 @@
             this.FP_Button = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.DIBox = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.ExternelDI_Panel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -108,9 +113,9 @@
             this.TCF_Button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.TCF_Button.Location = new System.Drawing.Point(439, 87);
             this.TCF_Button.Name = "TCF_Button";
-            this.TCF_Button.Size = new System.Drawing.Size(88, 33);
+            this.TCF_Button.Size = new System.Drawing.Size(140, 33);
             this.TCF_Button.TabIndex = 29;
-            this.TCF_Button.Text = " TCF";
+            this.TCF_Button.Text = " Calculate TCF";
             this.TCF_Button.UseVisualStyleBackColor = false;
             this.TCF_Button.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -148,9 +153,9 @@
             this.FP_Button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.FP_Button.Location = new System.Drawing.Point(439, 145);
             this.FP_Button.Name = "FP_Button";
-            this.FP_Button.Size = new System.Drawing.Size(108, 59);
+            this.FP_Button.Size = new System.Drawing.Size(160, 59);
             this.FP_Button.TabIndex = 39;
-            this.FP_Button.Text = "Function Point";
+            this.FP_Button.Text = "Calculate Function Point";
             this.FP_Button.UseVisualStyleBackColor = false;
             this.FP_Button.Click += new System.EventHandler(this.button1_Click_3);
             // 
@@ -172,21 +177,48 @@
             this.DIBox.TabIndex = 36;
             this.DIBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged_3);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::WindowsFormsApp3.Properties.Resources.fgcf;
+            this.pictureBox1.Location = new System.Drawing.Point(867, 428);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(39, 40);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 73;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(827, 24);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(79, 29);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 101;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            // 
             // TCF
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ClientSize = new System.Drawing.Size(918, 450);
+            this.ClientSize = new System.Drawing.Size(918, 480);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.ExternelDI_Panel);
             this.Controls.Add(this.ExternelDI_RadioButton);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.InternelDI_RadioButton);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "TCF";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TCF";
             this.Load += new System.EventHandler(this.TCF_Load);
             this.ExternelDI_Panel.ResumeLayout(false);
             this.ExternelDI_Panel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -206,5 +238,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox DIBox;
         private System.Windows.Forms.Button FP_Button;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }

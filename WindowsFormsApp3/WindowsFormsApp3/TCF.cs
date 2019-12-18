@@ -161,5 +161,10 @@ namespace WindowsFormsApp3
         {
             FPBox.Text = (UFP.PassedUFP * float.Parse(TCFBOX.Text)).ToString();
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

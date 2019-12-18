@@ -20,3 +20,4 @@ D:\First Term - 4th Year\SW Metrics\Project\MY-METRICS\WindowsFormsApp3\WindowsF
 D:\First Term - 4th Year\SW Metrics\Project\MY-METRICS\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
 D:\First Term - 4th Year\SW Metrics\Project\MY-METRICS\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
 D:\First Term - 4th Year\SW Metrics\Project\MY-METRICS\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
+D:\First Term - 4th Year\SW Metrics\Project\MY-METRICS\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.LOC.resources
