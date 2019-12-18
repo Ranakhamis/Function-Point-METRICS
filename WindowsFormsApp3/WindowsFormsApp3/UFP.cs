@@ -13,10 +13,39 @@ namespace WindowsFormsApp3
     public partial class UFP : Form
     {
      
-        float TotalUFP = 0;
         public static float PassedUFP = 0;
-        public int Value = 0;
-        public static int UFP_certain_complexity = 0;
+        public int Value1 = 0;
+        public int Value2 = 0;
+        public int Value3 = 0;
+        public int Value4 = 0;
+        public int Value5 = 0;
+
+        public static int Total_UFP_certain_complexity = 0;
+        public static int UFP_certain_complexity_EI = 0;
+        public static int UFP_certain_complexity_EI_0 = 0;
+        public static int UFP_certain_complexity_EI_1= 0;
+        public static int UFP_certain_complexity_EI_2 = 0;
+
+        public static int UFP_certain_complexity_EO = 0;
+        public static int UFP_certain_complexity_EO_0 = 0;
+        public static int UFP_certain_complexity_EO_1 = 0;
+        public static int UFP_certain_complexity_EO_2 = 0;
+
+        public static int UFP_certain_complexity_EINQ = 0;
+        public static int UFP_certain_complexity_EINQ_0 = 0;
+        public static int UFP_certain_complexity_EINQ_1 = 0;
+        public static int UFP_certain_complexity_EINQ_2 = 0;
+
+        public static int UFP_certain_complexity_ILF = 0;
+        public static int UFP_certain_complexity_ILF_0 = 0;
+        public static int UFP_certain_complexity_ILF_1 = 0;
+        public static int UFP_certain_complexity_ILF_2 = 0;
+
+        public static int UFP_certain_complexity_EIF = 0;
+        public static int UFP_certain_complexity_EIF_0 = 0;
+        public static int UFP_certain_complexity_EIF_1 = 0;
+        public static int UFP_certain_complexity_EIF_2 = 0;
+
         public static int T_ufp_ALL_ATTRIBUTES = 0;
         public UFP()
         {
@@ -29,21 +58,22 @@ namespace WindowsFormsApp3
 
             if (EI.SelectedIndex == 0)
             {
-                Value += 3;
-                UFP_certain_complexity += (Value * int.Parse(EIBOX.Text));
+                Value1 += 3;
+                UFP_certain_complexity_EI_0 = (Value1 * int.Parse(EIBOX.Text));
             }
             if (EI.SelectedIndex == 1)
             {
-                Value += 4;
-                UFP_certain_complexity += (Value * int.Parse(EIBOX.Text));
+                Value1 += 4;
+                UFP_certain_complexity_EI_1 = (Value1 * int.Parse(EIBOX.Text));
 
             }
             if (EI.SelectedIndex == 2)
             {
-                Value += 6;
-                UFP_certain_complexity += (Value * int.Parse(EIBOX.Text));
+                Value1 += 6;
+                UFP_certain_complexity_EI_2 = (Value1 * int.Parse(EIBOX.Text));
 
             }
+            UFP_certain_complexity_EI = UFP_certain_complexity_EI_0 + UFP_certain_complexity_EI_1 + UFP_certain_complexity_EI_2;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -55,7 +85,7 @@ namespace WindowsFormsApp3
         private void UFP_Load(object sender, EventArgs e)
         {
 
-            T_ufp_ALL_ATTRIBUTES += UFP_certain_complexity;
+    T_ufp_ALL_ATTRIBUTES = UFP_certain_complexity_EI + UFP_certain_complexity_EO + UFP_certain_complexity_EINQ + UFP_certain_complexity_ILF + UFP_certain_complexity_EIF;
 
         }
 
@@ -83,22 +113,25 @@ namespace WindowsFormsApp3
 
             if (EO.SelectedIndex == 0)
             {
-                Value += 4;
-                UFP_certain_complexity += (Value * int.Parse(EOBOX.Text));
+                Value2 += 4;
+                UFP_certain_complexity_EO_0 = (Value2 * int.Parse(EOBOX.Text));
+
 
             }
             if (EO.SelectedIndex == 1)
             {
-                Value += 5;
-                UFP_certain_complexity += (Value * int.Parse(EOBOX.Text));
+                Value2 += 5;
+                UFP_certain_complexity_EO_1 = (Value2 * int.Parse(EOBOX.Text));
 
             }
             if (EO.SelectedIndex == 2)
             {
-                Value += 7;
-                UFP_certain_complexity += (Value * int.Parse(EOBOX.Text));
+                Value2 += 7;
+                UFP_certain_complexity_EO_2 = (Value2 * int.Parse(EOBOX.Text));
 
             }
+            UFP_certain_complexity_EO = UFP_certain_complexity_EO_0 + UFP_certain_complexity_EO_1 + UFP_certain_complexity_EO_2;
+
         }
 
         private void EINQ_SelectedIndexChanged(object sender, EventArgs e)
@@ -107,22 +140,24 @@ namespace WindowsFormsApp3
 
             if (EINQ.SelectedIndex == 0)
             {
-                Value += 3;
-                UFP_certain_complexity += (Value * int.Parse(EINQBOX.Text));
+                Value3 += 3;
+                UFP_certain_complexity_EINQ_0 = (Value3 * int.Parse(EINQBOX.Text));
 
             }
             if (EINQ.SelectedIndex == 1)
             {
-                Value += 4;
-                UFP_certain_complexity += (Value * int.Parse(EINQBOX.Text));
+                Value3 += 4;
+                UFP_certain_complexity_EINQ_1 = (Value3 * int.Parse(EINQBOX.Text));
 
             }
             if (EINQ.SelectedIndex == 2)
             {
-                Value += 6;
-                UFP_certain_complexity += (Value * int.Parse(EINQBOX.Text));
+                Value3 += 6;
+                UFP_certain_complexity_EINQ_2 = (Value3 * int.Parse(EINQBOX.Text));
 
             }
+            UFP_certain_complexity_EINQ = UFP_certain_complexity_EINQ_0 + UFP_certain_complexity_EINQ_1 + UFP_certain_complexity_EINQ_2;
+
         }
 
         private void ILF_SelectedIndexChanged(object sender, EventArgs e)
@@ -131,22 +166,24 @@ namespace WindowsFormsApp3
 
             if (ILF.SelectedIndex == 0)
             {
-                Value += 7;
-                UFP_certain_complexity += (Value * int.Parse(ILFBOX.Text));
+                Value4 += 7;
+                UFP_certain_complexity_ILF_0 = (Value4 * int.Parse(ILFBOX.Text));
 
             }
             if (ILF.SelectedIndex == 1)
             {
-                Value += 10;
-                UFP_certain_complexity += (Value * int.Parse(ILFBOX.Text));
+                Value4 += 10;
+                UFP_certain_complexity_ILF_1 = (Value4 * int.Parse(ILFBOX.Text));
 
             }
             if (ILF.SelectedIndex == 2)
             {
-                Value += 15;
-                UFP_certain_complexity += (Value * int.Parse(ILFBOX.Text));
+                Value4 += 15;
+                UFP_certain_complexity_ILF_2 = (Value4 * int.Parse(ILFBOX.Text));
 
             }
+            UFP_certain_complexity_ILF = UFP_certain_complexity_ILF_0 + UFP_certain_complexity_ILF_1 + UFP_certain_complexity_ILF_2;
+
         }
 
         private void EIF_SelectedIndexChanged(object sender, EventArgs e)
@@ -156,22 +193,24 @@ namespace WindowsFormsApp3
 
             if (EIF.SelectedIndex == 0)
             {
-                Value += 5;
-                UFP_certain_complexity += (Value * int.Parse(EIFBOX.Text));
+                Value5 += 5;
+                UFP_certain_complexity_EIF_0 = (Value5 * int.Parse(EIFBOX.Text));
 
             }
             if (EIF.SelectedIndex == 1)
             {
-                Value += 7;
-                UFP_certain_complexity += (Value * int.Parse(EIFBOX.Text));
+                Value5 += 7;
+                UFP_certain_complexity_EIF_1 = (Value5 * int.Parse(EIFBOX.Text));
 
             }
             if (EIF.SelectedIndex == 2)
             {
-                Value += 10;
-                UFP_certain_complexity += (Value * int.Parse(EIFBOX.Text));
+                Value5 += 10;
+                UFP_certain_complexity_EIF_2 = (Value5 * int.Parse(EIFBOX.Text));
 
             }
+            UFP_certain_complexity_EIF = UFP_certain_complexity_EIF_0 + UFP_certain_complexity_EIF_1 + UFP_certain_complexity_EIF_2;
+
         }
 
         private void EIRADIO_CheckedChanged(object sender, EventArgs e)
