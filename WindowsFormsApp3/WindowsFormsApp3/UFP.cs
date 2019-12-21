@@ -102,7 +102,14 @@ namespace WindowsFormsApp3
         private void UFP_Load(object sender, EventArgs e)
         {   
             panel1.Hide();
-          T_ufp_ALL_ATTRIBUTES = UFP_certain_complexity_EI + UFP_certain_complexity_EO + 
+            UFP_certain_complexity_EI = UFP_certain_complexity_EI_0 + UFP_certain_complexity_EI_1 + UFP_certain_complexity_EI_2;
+            UFP_certain_complexity_EO = UFP_certain_complexity_EO_0 + UFP_certain_complexity_EO_1 + UFP_certain_complexity_EO_2;
+            UFP_certain_complexity_EINQ = UFP_certain_complexity_EINQ_0 + UFP_certain_complexity_EINQ_1 + UFP_certain_complexity_EINQ_2;
+            UFP_certain_complexity_ILF = UFP_certain_complexity_ILF_0 + UFP_certain_complexity_ILF_1 + UFP_certain_complexity_ILF_2;
+            UFP_certain_complexity_EIF = UFP_certain_complexity_EIF_0 + UFP_certain_complexity_EIF_1 + UFP_certain_complexity_EIF_2;
+           
+
+            T_ufp_ALL_ATTRIBUTES = UFP_certain_complexity_EI + UFP_certain_complexity_EO + 
                                  UFP_certain_complexity_EINQ + UFP_certain_complexity_ILF + UFP_certain_complexity_EIF;
 
         }
