@@ -21,5 +21,16 @@ namespace WindowsFormsApp3
         {
             Application.Exit();
         }
+
+        private void LOC_Button_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+
+        }
     }
 }

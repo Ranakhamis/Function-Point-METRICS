@@ -127,6 +127,39 @@ namespace WindowsFormsApp3
 
         private void pictureBox2_Click_1(object sender, EventArgs e)
         {
+            //Application.Exit();
+        }
+
+        private void DIBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            InternalFP.Show();
+            
+        }
+
+        private void Factors_for_DI_Load(object sender, EventArgs e)
+        {
+            this.Show();
+            InternalFP.Hide();
+        }
+
+        private void comboBox14_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click_2(object sender, EventArgs e)
+        {
+            Application.Exit();
+
+        }
+
+        private void pictureBox2_Click_3(object sender, EventArgs e)
+        {
             Application.Exit();
         }
     }

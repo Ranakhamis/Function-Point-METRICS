@@ -42,6 +42,7 @@ namespace WindowsFormsApp3
                 Factors_for_DI f = new Factors_for_DI();
                 f.Show();
                 this.Hide();
+                
             }
 
         }
@@ -163,6 +164,16 @@ namespace WindowsFormsApp3
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click_1(object sender, EventArgs e)
         {
             Application.Exit();
         }
