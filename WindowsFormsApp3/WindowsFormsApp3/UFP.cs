@@ -129,26 +129,27 @@ namespace WindowsFormsApp3
         {
             ////EO
 
-            //if (EO.SelectedIndex == 0)
-            //{
-            //    Value2 += 4;
-            //    UFP_certain_complexity_EO_0 = (Value2 * int.Parse(EOBOX.Text));
-
-
-            //}
-            //if (EO.SelectedIndex == 1)
-            //{
-            //    Value2 += 5;
-            //    UFP_certain_complexity_EO_1 = (Value2 * int.Parse(EOBOX.Text));
-
-            //}
-            //if (EO.SelectedIndex == 2)
-            //{
-            //    Value2 += 7;
-            //    UFP_certain_complexity_EO_2 = (Value2 * int.Parse(EOBOX.Text));
-
-            //}
-            //UFP_certain_complexity_EO = UFP_certain_complexity_EO_0 + UFP_certain_complexity_EO_1 + UFP_certain_complexity_EO_2;
+            if (EO.SelectedIndex == 0)
+            {
+                Value4 = int.Parse(EOS.Text);
+                UFP_certain_complexity_EO_0 = Value4 * 3;
+                EOA.Enabled = false;
+                EOC.Enabled = false;
+            }
+            else if (EO.SelectedIndex == 1)
+            {
+                Value5 = int.Parse(EOA.Text);
+                UFP_certain_complexity_EO_1 = (Value5 * 4);
+                EOS.Enabled = false;
+                EOC.Enabled = false;
+            }
+            else
+            {
+                Value6 = int.Parse(EOC.Text);
+                UFP_certain_complexity_EO_2 = (Value6 * 6);
+                EOA.Enabled = false;
+                EOS.Enabled = false;
+            }
 
         }
 
@@ -156,25 +157,27 @@ namespace WindowsFormsApp3
         {
             ////EINQ
 
-            //if (EINQ.SelectedIndex == 0)
-            //{
-            //    Value3 += 3;
-            //    UFP_certain_complexity_EINQ_0 = (Value3 * int.Parse(EINQBOX.Text));
-
-            //}
-            //if (EINQ.SelectedIndex == 1)
-            //{
-            //    Value3 += 4;
-            //    UFP_certain_complexity_EINQ_1 = (Value3 * int.Parse(EINQBOX.Text));
-
-            //}
-            //if (EINQ.SelectedIndex == 2)
-            //{
-            //    Value3 += 6;
-            //    UFP_certain_complexity_EINQ_2 = (Value3 * int.Parse(EINQBOX.Text));
-
-            //}
-            UFP_certain_complexity_EINQ = UFP_certain_complexity_EINQ_0 + UFP_certain_complexity_EINQ_1 + UFP_certain_complexity_EINQ_2;
+            if (EINQ.SelectedIndex == 0)
+            {
+                Value7 = int.Parse(EINQS.Text);
+                UFP_certain_complexity_EINQ_0 = Value7 * 3;
+                EINQA.Enabled = false;
+                EINQC.Enabled = false;
+            }
+            else if (EINQ.SelectedIndex == 1)
+            {
+                Value8 = int.Parse(EINQA.Text);
+                UFP_certain_complexity_EINQ_1 = (Value8 * 4);
+                EINQS.Enabled = false;
+                EINQC.Enabled = false;
+            }
+            else
+            {
+                Value9 = int.Parse(EINQC.Text);
+                UFP_certain_complexity_EINQ_2 = (Value9 * 6);
+                EINQA.Enabled = false;
+                EINQS.Enabled = false;
+            }
 
         }
 
@@ -182,25 +185,27 @@ namespace WindowsFormsApp3
         {
             ////ILF
 
-            //if (ILF.SelectedIndex == 0)
-            //{
-            //    Value4 += 7;
-            //    UFP_certain_complexity_ILF_0 = (Value4 * int.Parse(ILFBOX.Text));
-
-            //}
-            //if (ILF.SelectedIndex == 1)
-            //{
-            //    Value4 += 10;
-            //    UFP_certain_complexity_ILF_1 = (Value4 * int.Parse(ILFBOX.Text));
-
-            //}
-            //if (ILF.SelectedIndex == 2)
-            //{
-            //    Value4 += 15;
-            //    UFP_certain_complexity_ILF_2 = (Value4 * int.Parse(ILFBOX.Text));
-
-            //}
-            //UFP_certain_complexity_ILF = UFP_certain_complexity_ILF_0 + UFP_certain_complexity_ILF_1 + UFP_certain_complexity_ILF_2;
+            if (ILF.SelectedIndex == 0)
+            {
+                Value10 = int.Parse(ILFS.Text);
+                UFP_certain_complexity_ILF_0 = Value10 * 3;
+                ILFA.Enabled = false;
+                ILFC.Enabled = false;
+            }
+            else if (ILF.SelectedIndex == 1)
+            {
+                Value11 = int.Parse(ILFA.Text);
+                UFP_certain_complexity_ILF_1 = (Value11 * 4);
+                ILFS.Enabled = false;
+                ILFC.Enabled = false;
+            }
+            else
+            {
+                Value12 = int.Parse(ILFC.Text);
+                UFP_certain_complexity_ILF_2 = (Value12 * 6);
+                ILFA.Enabled = false;
+                ILFS.Enabled = false;
+            }
 
         }
 
@@ -209,25 +214,27 @@ namespace WindowsFormsApp3
 
             ////EIF
 
-            //if (EIF.SelectedIndex == 0)
-            //{
-            //    Value5 += 5;
-            //    UFP_certain_complexity_EIF_0 = (Value5 * int.Parse(EIFBOX.Text));
-
-            //}
-            //if (EIF.SelectedIndex == 1)
-            //{
-            //    Value5 += 7;
-            //    UFP_certain_complexity_EIF_1 = (Value5 * int.Parse(EIFBOX.Text));
-
-            //}
-            //if (EIF.SelectedIndex == 2)
-            //{
-            //    Value5 += 10;
-            //    UFP_certain_complexity_EIF_2 = (Value5 * int.Parse(EIFBOX.Text));
-
-            //}
-            //UFP_certain_complexity_EIF = UFP_certain_complexity_EIF_0 + UFP_certain_complexity_EIF_1 + UFP_certain_complexity_EIF_2;
+            if (EIF.SelectedIndex == 0)
+            {
+                Value13 = int.Parse(EIFS.Text);
+                UFP_certain_complexity_EIF_0 = Value13 * 3;
+                EIFA.Enabled = false;
+                EIFC.Enabled = false;
+            }
+            else if (EIF.SelectedIndex == 1)
+            {
+                Value14 = int.Parse(EIA.Text);
+                UFP_certain_complexity_EIF_1 = (Value14 * 4);
+                EIFS.Enabled = false;
+                EIFC.Enabled = false;
+            }
+            else
+            {
+                Value15 = int.Parse(EIFC.Text);
+                UFP_certain_complexity_EIF_2 = (Value15 * 6);
+                EIFA.Enabled = false;
+                EIFS.Enabled = false;
+            }
 
         }
 
