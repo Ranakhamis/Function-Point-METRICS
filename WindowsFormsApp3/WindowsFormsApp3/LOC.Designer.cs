@@ -117,7 +117,8 @@
             // 
             // LOC_Button
             // 
-            this.LOC_Button.BackColor = System.Drawing.Color.White;
+            this.LOC_Button.BackColor = System.Drawing.Color.Transparent;
+            this.LOC_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.LOC_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LOC_Button.ForeColor = System.Drawing.Color.Indigo;
             this.LOC_Button.Location = new System.Drawing.Point(484, 274);
@@ -148,6 +149,7 @@
             // 
             // pictureBox3
             // 
+            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(630, 3);
             this.pictureBox3.Name = "pictureBox3";

@@ -58,7 +58,6 @@ namespace WindowsFormsApp3
         //public static int UFP_certain_complexity_EIF_1 = 0;
         //public static int UFP_certain_complexity_EIF_2 = 0;
 
-        public static int T_ufp_ALL_ATTRIBUTES = 0;
         public UFP()
         {
             InitializeComponent();
@@ -98,16 +97,17 @@ namespace WindowsFormsApp3
 
         private void button1_Click(object sender, EventArgs e)
         {
-            T_ufp_ALL_ATTRIBUTES = UFP_certain_complexity_EI + UFP_certain_complexity_EO +
+            PassedUFP = UFP_certain_complexity_EI + UFP_certain_complexity_EO +
                                 UFP_certain_complexity_EINQ + UFP_certain_complexity_ILF + UFP_certain_complexity_EIF;
 
-            Result.Text = T_ufp_ALL_ATTRIBUTES.ToString();
+            Result.Text = PassedUFP.ToString();
 
         }
 
         private void UFP_Load(object sender, EventArgs e)
         {
             panel1.Hide();
+
             CEIS.Text = "3";
             CEIA.Text = "4";
             CEIC.Text = "6";
@@ -149,22 +149,23 @@ namespace WindowsFormsApp3
             this.Hide();
         }
 
-        //string r = " ";
-        public void return_function(TextBox T)
-        {
-            if (T.Text == "")
-            {
-                T.Text = 0.ToString();
-            }
-            //else
-            //{
-            //    return T;
-            //}
-        }
-
+        ////string r = " ";
+        //public void return_function(TextBox T)
+        //{
+        //    if (T.Text == "")
+        //    {
+        //        T.Text = 0.ToString();
+        //    }
+        //    //else
+        //    //{
+        //    //    return T;
+        //    //}
+        //}
+        // t3alyy call awryky haga 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-           
+            panel1.Show();
+
             Value1 = (3 * Int32.Parse(EIS.Text));
             Value2 = (4 * int.Parse(EIA.Text));
             Value3 = (6 * int.Parse(EIC.Text));
@@ -193,31 +194,31 @@ namespace WindowsFormsApp3
             Value15 = (10 * int.Parse(EIFC.Text));
             UFP_certain_complexity_EIF = (Value13 + Value14 + Value15);
 
-            return_function(EIS);
-            return_function(EIA);
-            return_function(EIC);
 
-            return_function(EOS);
-            return_function(EOA);
-            return_function(EOC);
+            //return_function(EIS);
+            //return_function(EIA);
+            //return_function(EIC);
 
-            return_function(EINQS);
-            return_function(EINQA);
-            return_function(EINQC);
+            //return_function(EOS);
+            //return_function(EOA);
+            //return_function(EOC);
 
-            return_function(ILFS);
-            return_function(ILFA);
-            return_function(ILFC);
+            //return_function(EINQS);
+            //return_function(EINQA);
+            //return_function(EINQC);
 
-            return_function(EIFS);
-            return_function(EIFA);
-            return_function(EIFC);
+            //return_function(ILFS);
+            //return_function(ILFA);
+            //return_function(ILFC);
+
+            //return_function(EIFS);
+            //return_function(EIFA);
+            //return_function(EIFC);
 
 
-            panel1.Show();
 
         }
-     
+
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -293,6 +294,21 @@ namespace WindowsFormsApp3
 
         private void textBox15_TextChanged(object sender, EventArgs e)
         {
+
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox5_Click_1(object sender, EventArgs e)
+        {
+            panel1.Hide();
 
         }
     }

@@ -487,9 +487,10 @@
             // 
             // FP_Button
             // 
-            this.FP_Button.BackColor = System.Drawing.Color.White;
-            this.FP_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FP_Button.ForeColor = System.Drawing.Color.Indigo;
+            this.FP_Button.BackColor = System.Drawing.Color.Transparent;
+            this.FP_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.FP_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FP_Button.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.FP_Button.Location = new System.Drawing.Point(278, 215);
             this.FP_Button.Name = "FP_Button";
             this.FP_Button.Size = new System.Drawing.Size(108, 53);
@@ -502,7 +503,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Indigo;
+            this.label3.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.label3.Location = new System.Drawing.Point(26, 77);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(24, 18);
@@ -519,9 +520,10 @@
             // 
             // TCF_Button
             // 
-            this.TCF_Button.BackColor = System.Drawing.Color.White;
-            this.TCF_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TCF_Button.ForeColor = System.Drawing.Color.Indigo;
+            this.TCF_Button.BackColor = System.Drawing.Color.Transparent;
+            this.TCF_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TCF_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TCF_Button.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.TCF_Button.Location = new System.Drawing.Point(278, 144);
             this.TCF_Button.Name = "TCF_Button";
             this.TCF_Button.Size = new System.Drawing.Size(108, 33);
@@ -541,7 +543,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Indigo;
+            this.label2.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.label2.Location = new System.Drawing.Point(3, 233);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(117, 18);
@@ -559,7 +561,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Indigo;
+            this.label5.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.label5.Location = new System.Drawing.Point(8, 151);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(100, 18);
@@ -590,7 +592,7 @@
             // 
             // InternalFP
             // 
-            this.InternalFP.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.InternalFP.BackColor = System.Drawing.Color.DarkOrchid;
             this.InternalFP.Controls.Add(this.pictureBox4);
             this.InternalFP.Controls.Add(this.label3);
             this.InternalFP.Controls.Add(this.pictureBox3);

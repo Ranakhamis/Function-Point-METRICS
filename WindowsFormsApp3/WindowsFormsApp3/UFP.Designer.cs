@@ -246,6 +246,7 @@
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 160;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click_1);
             // 
             // panel1
             // 
@@ -256,10 +257,11 @@
             this.panel1.Controls.Add(this.Result);
             this.panel1.Controls.Add(this.button1);
             this.panel1.ForeColor = System.Drawing.Color.PaleTurquoise;
-            this.panel1.Location = new System.Drawing.Point(10, 12);
+            this.panel1.Location = new System.Drawing.Point(256, 96);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(403, 246);
             this.panel1.TabIndex = 137;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label14
             // 

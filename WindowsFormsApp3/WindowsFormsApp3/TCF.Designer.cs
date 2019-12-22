@@ -53,10 +53,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(352, 35);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Purple;
+            this.label1.Location = new System.Drawing.Point(304, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(24, 18);
+            this.label1.Size = new System.Drawing.Size(34, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "DI";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -64,10 +65,12 @@
             // InternelDI_RadioButton
             // 
             this.InternelDI_RadioButton.AutoSize = true;
-            this.InternelDI_RadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.InternelDI_RadioButton.Location = new System.Drawing.Point(317, 68);
+            this.InternelDI_RadioButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.InternelDI_RadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.InternelDI_RadioButton.ForeColor = System.Drawing.Color.Purple;
+            this.InternelDI_RadioButton.Location = new System.Drawing.Point(255, 78);
             this.InternelDI_RadioButton.Name = "InternelDI_RadioButton";
-            this.InternelDI_RadioButton.Size = new System.Drawing.Size(92, 19);
+            this.InternelDI_RadioButton.Size = new System.Drawing.Size(121, 28);
             this.InternelDI_RadioButton.TabIndex = 3;
             this.InternelDI_RadioButton.Text = "Internal DI";
             this.InternelDI_RadioButton.UseVisualStyleBackColor = true;
@@ -77,6 +80,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Purple;
             this.label2.Location = new System.Drawing.Point(63, 97);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(100, 18);
@@ -85,9 +89,9 @@
             // 
             // TCFBOX
             // 
-            this.TCFBOX.Location = new System.Drawing.Point(239, 98);
+            this.TCFBOX.Location = new System.Drawing.Point(219, 98);
             this.TCFBOX.Name = "TCFBOX";
-            this.TCFBOX.Size = new System.Drawing.Size(100, 20);
+            this.TCFBOX.Size = new System.Drawing.Size(120, 20);
             this.TCFBOX.TabIndex = 6;
             this.TCFBOX.TextChanged += new System.EventHandler(this.TCFBox_TextChanged);
             // 
@@ -95,6 +99,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Purple;
             this.label7.Location = new System.Drawing.Point(63, 165);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(117, 18);
@@ -103,16 +108,17 @@
             // 
             // FPBox
             // 
-            this.FPBox.Location = new System.Drawing.Point(239, 166);
+            this.FPBox.Location = new System.Drawing.Point(219, 166);
             this.FPBox.Name = "FPBox";
-            this.FPBox.Size = new System.Drawing.Size(100, 20);
+            this.FPBox.Size = new System.Drawing.Size(120, 20);
             this.FPBox.TabIndex = 33;
             // 
             // TCF_Button
             // 
-            this.TCF_Button.BackColor = System.Drawing.Color.White;
+            this.TCF_Button.BackColor = System.Drawing.Color.Transparent;
+            this.TCF_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.TCF_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TCF_Button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.TCF_Button.ForeColor = System.Drawing.Color.Purple;
             this.TCF_Button.Location = new System.Drawing.Point(402, 85);
             this.TCF_Button.Name = "TCF_Button";
             this.TCF_Button.Size = new System.Drawing.Size(160, 33);
@@ -124,10 +130,12 @@
             // ExternelDI_RadioButton
             // 
             this.ExternelDI_RadioButton.AutoSize = true;
-            this.ExternelDI_RadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ExternelDI_RadioButton.Location = new System.Drawing.Point(317, 106);
+            this.ExternelDI_RadioButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ExternelDI_RadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ExternelDI_RadioButton.ForeColor = System.Drawing.Color.Purple;
+            this.ExternelDI_RadioButton.Location = new System.Drawing.Point(255, 129);
             this.ExternelDI_RadioButton.Name = "ExternelDI_RadioButton";
-            this.ExternelDI_RadioButton.Size = new System.Drawing.Size(96, 19);
+            this.ExternelDI_RadioButton.Size = new System.Drawing.Size(129, 28);
             this.ExternelDI_RadioButton.TabIndex = 37;
             this.ExternelDI_RadioButton.Text = "External DI";
             this.ExternelDI_RadioButton.UseVisualStyleBackColor = true;
@@ -143,16 +151,17 @@
             this.ExternelDI_Panel.Controls.Add(this.label7);
             this.ExternelDI_Panel.Controls.Add(this.FPBox);
             this.ExternelDI_Panel.Controls.Add(this.label2);
-            this.ExternelDI_Panel.Location = new System.Drawing.Point(51, 141);
+            this.ExternelDI_Panel.Location = new System.Drawing.Point(12, 163);
             this.ExternelDI_Panel.Name = "ExternelDI_Panel";
-            this.ExternelDI_Panel.Size = new System.Drawing.Size(597, 279);
+            this.ExternelDI_Panel.Size = new System.Drawing.Size(603, 247);
             this.ExternelDI_Panel.TabIndex = 38;
             // 
             // FP_Button
             // 
-            this.FP_Button.BackColor = System.Drawing.Color.White;
+            this.FP_Button.BackColor = System.Drawing.Color.Transparent;
+            this.FP_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.FP_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FP_Button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.FP_Button.ForeColor = System.Drawing.Color.Purple;
             this.FP_Button.Location = new System.Drawing.Point(402, 145);
             this.FP_Button.Name = "FP_Button";
             this.FP_Button.Size = new System.Drawing.Size(160, 59);
@@ -165,6 +174,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Purple;
             this.label3.Location = new System.Drawing.Point(94, 48);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(24, 18);
@@ -173,16 +183,16 @@
             // 
             // DIBox
             // 
-            this.DIBox.Location = new System.Drawing.Point(239, 46);
+            this.DIBox.Location = new System.Drawing.Point(219, 46);
             this.DIBox.Name = "DIBox";
-            this.DIBox.Size = new System.Drawing.Size(100, 20);
+            this.DIBox.Size = new System.Drawing.Size(120, 20);
             this.DIBox.TabIndex = 36;
             this.DIBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged_3);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(667, 413);
+            this.pictureBox1.Location = new System.Drawing.Point(628, 414);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(77, 55);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -203,7 +213,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(680, 10);
+            this.pictureBox3.Location = new System.Drawing.Point(641, -1);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(53, 54);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -216,7 +226,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ClientSize = new System.Drawing.Size(740, 470);
+            this.ClientSize = new System.Drawing.Size(705, 470);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
