@@ -14,6 +14,7 @@ namespace WindowsFormsApp3
     {
 
         public static float PassedUFP = 0;
+
        
         public static int Value1 = 0;
         public static int Value2 = 0;
@@ -33,63 +34,19 @@ namespace WindowsFormsApp3
         public static int Value14 = 0;
         public static int Value15 = 0;
 
-        public static int Total_UFP_certain_complexity = 0;
-        public static int UFP_certain_complexity_EI = 0;
-        //public static int UFP_certain_complexity_EI_0 = 0;
-        //public static int UFP_certain_complexity_EI_1= 0;
-        //public static int UFP_certain_complexity_EI_2 = 0;
-
-        public static int UFP_certain_complexity_EO = 0;
-        //public static int UFP_certain_complexity_EO_0 = 0;
-        //public static int UFP_certain_complexity_EO_1 = 0;
-        //public static int UFP_certain_complexity_EO_2 = 0;
-
-        public static int UFP_certain_complexity_EINQ = 0;
-        //public static int UFP_certain_complexity_EINQ_0 = 0;
-        //public static int UFP_certain_complexity_EINQ_1 = 0;
-        //public static int UFP_certain_complexity_EINQ_2 = 0;
-
+        public static int UFP_certain_complexity_EI = 0;   
+        public static int UFP_certain_complexity_EO = 0;     
+        public static int UFP_certain_complexity_EINQ = 0;      
         public static int UFP_certain_complexity_ILF = 0;
-        //public static int UFP_certain_complexity_ILF_0 = 0;
-        //public static int UFP_certain_complexity_ILF_1 = 0;
-        //public static int UFP_certain_complexity_ILF_2 = 0;
-
         public static int UFP_certain_complexity_EIF = 0;
-        //public static int UFP_certain_complexity_EIF_0 = 0;
-        //public static int UFP_certain_complexity_EIF_1 = 0;
-        //public static int UFP_certain_complexity_EIF_2 = 0;
-
+       
         public UFP()
         {
             InitializeComponent();
         }
 
 
-        //            //EI
-
-        //            if (EI.SelectedIndex == 0)
-        //            {
-        //                Value1 = int.Parse(EIS.Text);
-        //        UFP_certain_complexity_EI_0 = Value1* 3;
-        //                EIA.Enabled = false;
-
-
-        //                EIC.Enabled= false;
-        //            }
-        //            else if (EI.SelectedIndex == 1)
-        //            {
-        //                Value2 = int.Parse(EIA.Text);
-        //    UFP_certain_complexity_EI_1 = (Value2* 4);
-        //                EIS.Enabled = false;
-        //                EIC.Enabled = false;
-        //            }
-        //            else 
-        //            {
-        //                Value3 = int.Parse(EIC.Text);
-        //UFP_certain_complexity_EI_2 = (Value3*6 );
-        //                EIA.Enabled = false;
-        //                EIS.Enabled = false;
-        //            }
+       
 
         private void EI_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -98,11 +55,7 @@ namespace WindowsFormsApp3
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //PassedUFP = UFP_certain_complexity_EI + UFP_certain_complexity_EO +
-                                //UFP_certain_complexity_EINQ + UFP_certain_complexity_ILF + UFP_certain_complexity_EIF;
-
-            //Result.Text = PassedUFP.ToString();
-
+           
         }
 
         private void UFP_Load(object sender, EventArgs e)
@@ -132,46 +85,32 @@ namespace WindowsFormsApp3
 
 
 
-            //UFP_certain_complexity_EI = UFP_certain_complexity_EI_0 + UFP_certain_complexity_EI_1 + UFP_certain_complexity_EI_2;
-            //UFP_certain_complexity_EO = UFP_certain_complexity_EO_0 + UFP_certain_complexity_EO_1 + UFP_certain_complexity_EO_2;
-            //UFP_certain_complexity_EINQ = UFP_certain_complexity_EINQ_0 + UFP_certain_complexity_EINQ_1 + UFP_certain_complexity_EINQ_2;
-            //UFP_certain_complexity_ILF = UFP_certain_complexity_ILF_0 + UFP_certain_complexity_ILF_1 + UFP_certain_complexity_ILF_2;
-            //UFP_certain_complexity_EIF = UFP_certain_complexity_EIF_0 + UFP_certain_complexity_EIF_1 + UFP_certain_complexity_EIF_2;
-
-
 
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            //PassedUFP = float.Parse(Result.Text);
-            //TCF tcf = new TCF();
-            //tcf.Show();
-            //this.Hide();
+            
         }
 
-        ////string r = " ";
-        //public void return_function(TextBox T)
-        //{
-        //    if (T.Text == "")
-        //    {
-        //        T.Text = 0.ToString();
-        //    }
-        //    //else
-        //    //{
-        //    //    return T;
-        //    //}
-        //}
-        // t3alyy call awryky haga 
+            //Dictionary of weights
+
+        public static int v1 = 3;
+        public static int v2 = 4;
+        public static int v3 = 5;
+        public static int v4 = 6;
+        public static int v5 = 7;
+        public static int v6 = 10;
+        public static int v7 = 15;
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             panel1.Show();
 
-            UFP_certain_complexity_EI = (Value1*3) + (Value2*4) + (Value3*6);
-            UFP_certain_complexity_EO = (Value4*4) + (Value5*5) + (Value6*7);
-            UFP_certain_complexity_EINQ = (Value7*3) + (Value8*4) + (Value9*6);
-            UFP_certain_complexity_ILF = (Value10*7) + (Value11*10) + (Value12*15);
-            UFP_certain_complexity_EIF = (Value13*5) + (Value14*7) + (Value15*10);
+            UFP_certain_complexity_EI = (Value1*v1) + (Value2*v2) + (Value3*v4);
+            UFP_certain_complexity_EO = (Value4*v2) + (Value5*v3) + (Value6*v5);
+            UFP_certain_complexity_EINQ = (Value7*v1) + (Value8*v2) + (Value9*v4);
+            UFP_certain_complexity_ILF = (Value10*v5) + (Value11*v6) + (Value12*v7);
+            UFP_certain_complexity_EIF = (Value13*v3) + (Value14*v5) + (Value15*v6);
 
             PassedUFP = UFP_certain_complexity_EI + UFP_certain_complexity_EO + UFP_certain_complexity_EINQ
                         + UFP_certain_complexity_ILF + UFP_certain_complexity_EIF;
@@ -182,18 +121,6 @@ namespace WindowsFormsApp3
         {
             Application.Exit();
         }
-
-        
-        
-
-        //private void EIFRADIO_CheckedChanged(object sender, EventArgs e)
-        //{
-        //    //if (EIFRADIO.Checked)
-        //    //{
-        //    //    EIFBOX.Clear();
-
-        //    //}
-        //}
 
         private void EIBOX_TextChanged(object sender, EventArgs e)
         {
@@ -293,31 +220,7 @@ namespace WindowsFormsApp3
 
         private void button4_Click(object sender, EventArgs e)
         {
-            //if (comboBox2.SelectedIndex == 0)
-            //{
-            //    Value4 = int.Parse(EOBOX.Text);
-            //}
-            //else if (comboBox2.SelectedIndex == 1)
-            //{
-            //    Value5 = int.Parse(EOBOX.Text);
-
-            //}
-            //else
-            //{
-            //    Value6 = int.Parse(EOBOX.Text);
-
-            //}
-            //label15.Text = Value4.ToString();
-            //EOBOX.ResetText();
-            //label15.Show();
-
-            //label16.Text = Value5.ToString();
-            //EOBOX.ResetText();
-            //label16.Show();
-
-            //label17.Text = Value6.ToString();
-            //EOBOX.ResetText();
-            //label17.Show();
+           
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -559,14 +462,14 @@ namespace WindowsFormsApp3
                 Value12 = int.Parse(ILFBOX.Text);
 
             }
-            label24.Text = Value10.ToString();
+            label26.Text = Value10.ToString();
             ILFBOX.ResetText();
             if (Value10 != 0)
             {
-                label24.Show();
+                label26.Show();
             }
             else
-            { label24.Hide(); }
+            { label26.Hide(); }
 
             label25.Text = Value11.ToString();
             ILFBOX.ResetText();
@@ -577,14 +480,14 @@ namespace WindowsFormsApp3
             else
             { label25.Hide(); }
 
-            label26.Text = Value12.ToString();
+            label24.Text = Value12.ToString();
             ILFBOX.ResetText();
             if (Value12 != 0)
             {
-                label26.Show();
+                label24.Show();
             }
             else
-            { label26.Hide(); }
+            { label24.Hide(); }
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
@@ -604,14 +507,14 @@ namespace WindowsFormsApp3
                 Value15 = int.Parse(EIFBOX.Text);
 
             }
-            label27.Text = Value13.ToString();
+            label29.Text = Value13.ToString();
             EIFBOX.ResetText();
             if (Value13 != 0)
             {
-                label27.Show();
+                label29.Show();
             }
             else
-            { label27.Hide(); }
+            { label29.Hide(); }
 
 
             label28.Text = Value14.ToString();
@@ -623,15 +526,27 @@ namespace WindowsFormsApp3
             else
             { label28.Hide(); }
 
-            label29.Text = Value15.ToString();
+            label27.Text = Value15.ToString();
             EIFBOX.ResetText();
             if (Value15 != 0)
             {
-                label29.Show();
+                label27.Show();
             }
             else
-            { label29.Hide(); }
+            { label27.Hide(); }
         }
+        //public void return_function(TextBox T)
+        //{
+        //    if (T.Text == "")
+        //    {
+        //        T.Text = 0.ToString();
+        //    }
+        //    //else
+        //    //{
+        //    //    return T;
+        //    //}
+        //}
+
 
         private void pictureBox11_Click(object sender, EventArgs e)
         {
@@ -658,6 +573,16 @@ namespace WindowsFormsApp3
         private void pictureBox14_Click(object sender, EventArgs e)
         {
             panel1.Hide();
+        }
+
+        private void label26_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label22_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

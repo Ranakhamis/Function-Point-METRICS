@@ -78,10 +78,6 @@ namespace WindowsFormsApp3
         {   
             
             
-            //if (comboBox1.SelectedItem.value = 0 )
-            //{
-            //    Val = 0
-            //}
         }
 
         private void TCF_Button_Click(object sender, EventArgs e)
@@ -165,6 +161,13 @@ namespace WindowsFormsApp3
 
             LOC loc = new LOC();
             loc.Show();
+            this.Hide();
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+            TCF T = new TCF();
+            T.Show();
             this.Hide();
         }
     }

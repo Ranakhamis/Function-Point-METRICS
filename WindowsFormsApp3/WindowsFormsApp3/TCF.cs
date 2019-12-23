@@ -170,12 +170,21 @@ namespace WindowsFormsApp3
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-
+            LOC L = new LOC();
+            L.Show();
+            this.Hide();
         }
 
         private void pictureBox3_Click_1(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            UFP U = new UFP();
+            U.Show();
+            this.Hide();
         }
     }
 }
