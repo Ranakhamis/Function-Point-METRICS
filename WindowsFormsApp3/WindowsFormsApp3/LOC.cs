@@ -24,7 +24,7 @@ namespace WindowsFormsApp3
 
         private void LOC_Button_Click(object sender, EventArgs e)
         {
-            FPLOC.Text = (UFP.PassedUFP).ToString();
+            //FPLOC.Text = TCF.fpvaluefromtcf.ToString();
             
             if (AVC_Combo.SelectedIndex == 0)
             {

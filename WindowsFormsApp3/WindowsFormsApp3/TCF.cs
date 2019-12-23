@@ -14,6 +14,8 @@ namespace WindowsFormsApp3
     {
         public int avc_value = 0;
         public float loc = 0;
+        public static int fpvaluefromtcf = 0;
+
         public TCF()
         {
             InitializeComponent();
@@ -185,6 +187,12 @@ namespace WindowsFormsApp3
             UFP U = new UFP();
             U.Show();
             this.Hide();
+        }
+
+        private void FPBox_TextChanged(object sender, EventArgs e)
+        {
+            //fpvaluefromtcf = int.Parse(FPBox.Text);
+
         }
     }
 }

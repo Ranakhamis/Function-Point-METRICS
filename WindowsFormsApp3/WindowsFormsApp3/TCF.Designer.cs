@@ -114,6 +114,7 @@
             this.FPBox.Name = "FPBox";
             this.FPBox.Size = new System.Drawing.Size(120, 20);
             this.FPBox.TabIndex = 33;
+            this.FPBox.TextChanged += new System.EventHandler(this.FPBox_TextChanged);
             // 
             // TCF_Button
             // 

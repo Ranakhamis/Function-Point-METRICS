@@ -448,11 +448,11 @@ namespace WindowsFormsApp3
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
-            if (comboBox4.SelectedIndex == 0)
+            if (comboBox5.SelectedIndex == 0)
             {
                 Value10 = int.Parse(ILFBOX.Text);
             }
-            else if (comboBox4.SelectedIndex == 1)
+            else if (comboBox5.SelectedIndex == 1)
             {
                 Value11 = int.Parse(ILFBOX.Text);
 
@@ -493,11 +493,11 @@ namespace WindowsFormsApp3
         private void pictureBox7_Click(object sender, EventArgs e)
         {
 
-            if (comboBox5.SelectedIndex == 0)
+            if (comboBox4.SelectedIndex == 0)
             {
                 Value13 = int.Parse(EIFBOX.Text);
             }
-            else if (comboBox5.SelectedIndex == 1)
+            else if (comboBox4.SelectedIndex == 1)
             {
                 Value14 = int.Parse(EIFBOX.Text);
 
