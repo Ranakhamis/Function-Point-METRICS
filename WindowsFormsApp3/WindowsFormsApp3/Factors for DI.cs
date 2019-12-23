@@ -12,8 +12,8 @@ namespace WindowsFormsApp3
 {
     public partial class Factors_for_DI : Form
     {
-        int TotalDI = 0;
-        public int SumComboBox(ComboBox name)
+        public static int TotalDI = 0;
+        public static int SumComboBox(ComboBox name)
         {
             int Value = 0;
             if (name.SelectedIndex == 0)
@@ -120,9 +120,6 @@ namespace WindowsFormsApp3
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            LOC loc = new LOC();
-            loc.Show();
-            this.Hide();
         }
 
         private void pictureBox2_Click_1(object sender, EventArgs e)
@@ -161,6 +158,14 @@ namespace WindowsFormsApp3
         private void pictureBox2_Click_3(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void pictureBox13_Click(object sender, EventArgs e)
+        {
+
+            LOC loc = new LOC();
+            loc.Show();
+            this.Hide();
         }
     }
 }

@@ -77,6 +77,7 @@
             // 
             // AVC_Combo
             // 
+            this.AVC_Combo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AVC_Combo.FormattingEnabled = true;
             this.AVC_Combo.Items.AddRange(new object[] {
             "Assembly Language ( 320 )",

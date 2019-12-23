@@ -68,18 +68,20 @@
             this.FPBox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.InternalFP = new System.Windows.Forms.Panel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.InternalFP.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -124,6 +126,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(6, 359);
             this.label1.Name = "label1";
@@ -133,6 +136,7 @@
             // 
             // comboBox14
             // 
+            this.comboBox14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.comboBox14.FormattingEnabled = true;
             this.comboBox14.Items.AddRange(new object[] {
             "0  (No Influence)",
@@ -141,7 +145,7 @@
             "3  (Average)",
             "4  (Significant)",
             "5  (Essential)"});
-            this.comboBox14.Location = new System.Drawing.Point(607, 354);
+            this.comboBox14.Location = new System.Drawing.Point(607, 362);
             this.comboBox14.Name = "comboBox14";
             this.comboBox14.Size = new System.Drawing.Size(141, 21);
             this.comboBox14.TabIndex = 50;
@@ -149,6 +153,7 @@
             // 
             // comboBox13
             // 
+            this.comboBox13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.comboBox13.FormattingEnabled = true;
             this.comboBox13.Items.AddRange(new object[] {
             "0  (No Influence)",
@@ -157,13 +162,14 @@
             "3  (Average)",
             "4  (Significant)",
             "5  (Essential)"});
-            this.comboBox13.Location = new System.Drawing.Point(606, 300);
+            this.comboBox13.Location = new System.Drawing.Point(606, 307);
             this.comboBox13.Name = "comboBox13";
             this.comboBox13.Size = new System.Drawing.Size(142, 21);
             this.comboBox13.TabIndex = 49;
             // 
             // comboBox12
             // 
+            this.comboBox12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.comboBox12.FormattingEnabled = true;
             this.comboBox12.Items.AddRange(new object[] {
             "0  (No Influence)",
@@ -172,13 +178,14 @@
             "3  (Average)",
             "4  (Significant)",
             "5  (Essential)"});
-            this.comboBox12.Location = new System.Drawing.Point(606, 248);
+            this.comboBox12.Location = new System.Drawing.Point(606, 252);
             this.comboBox12.Name = "comboBox12";
             this.comboBox12.Size = new System.Drawing.Size(142, 21);
             this.comboBox12.TabIndex = 48;
             // 
             // comboBox11
             // 
+            this.comboBox11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.comboBox11.FormattingEnabled = true;
             this.comboBox11.Items.AddRange(new object[] {
             "0  (No Influence)",
@@ -187,13 +194,14 @@
             "3  (Average)",
             "4  (Significant)",
             "5  (Essential)"});
-            this.comboBox11.Location = new System.Drawing.Point(605, 196);
+            this.comboBox11.Location = new System.Drawing.Point(605, 197);
             this.comboBox11.Name = "comboBox11";
             this.comboBox11.Size = new System.Drawing.Size(142, 21);
             this.comboBox11.TabIndex = 47;
             // 
             // comboBox10
             // 
+            this.comboBox10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.comboBox10.FormattingEnabled = true;
             this.comboBox10.Items.AddRange(new object[] {
             "0  (No Influence)",
@@ -202,13 +210,14 @@
             "3  (Average)",
             "4  (Significant)",
             "5  (Essential)"});
-            this.comboBox10.Location = new System.Drawing.Point(606, 151);
+            this.comboBox10.Location = new System.Drawing.Point(605, 148);
             this.comboBox10.Name = "comboBox10";
             this.comboBox10.Size = new System.Drawing.Size(142, 21);
             this.comboBox10.TabIndex = 46;
             // 
             // comboBox9
             // 
+            this.comboBox9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.comboBox9.FormattingEnabled = true;
             this.comboBox9.Items.AddRange(new object[] {
             "0  (No Influence)",
@@ -217,13 +226,14 @@
             "3  (Average)",
             "4  (Significant)",
             "5  (Essential)"});
-            this.comboBox9.Location = new System.Drawing.Point(606, 108);
+            this.comboBox9.Location = new System.Drawing.Point(606, 102);
             this.comboBox9.Name = "comboBox9";
             this.comboBox9.Size = new System.Drawing.Size(142, 21);
             this.comboBox9.TabIndex = 45;
             // 
             // comboBox8
             // 
+            this.comboBox8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.comboBox8.FormattingEnabled = true;
             this.comboBox8.Items.AddRange(new object[] {
             "0  (No Influence)",
@@ -240,6 +250,7 @@
             // 
             // comboBox7
             // 
+            this.comboBox7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.comboBox7.FormattingEnabled = true;
             this.comboBox7.Items.AddRange(new object[] {
             "0  (No Influence)",
@@ -255,6 +266,7 @@
             // 
             // comboBox6
             // 
+            this.comboBox6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.comboBox6.FormattingEnabled = true;
             this.comboBox6.Items.AddRange(new object[] {
             "0  (No Influence)",
@@ -270,6 +282,7 @@
             // 
             // comboBox5
             // 
+            this.comboBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.comboBox5.FormattingEnabled = true;
             this.comboBox5.Items.AddRange(new object[] {
             "0  (No Influence)",
@@ -286,6 +299,7 @@
             // 
             // comboBox4
             // 
+            this.comboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.comboBox4.FormattingEnabled = true;
             this.comboBox4.Items.AddRange(new object[] {
             "0  (No Influence)",
@@ -301,6 +315,7 @@
             // 
             // comboBox3
             // 
+            this.comboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.comboBox3.FormattingEnabled = true;
             this.comboBox3.Items.AddRange(new object[] {
             "0  (No Influence)",
@@ -316,6 +331,7 @@
             // 
             // comboBox2
             // 
+            this.comboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
             "0  (No Influence)",
@@ -331,6 +347,7 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "0  (No Influence)",
@@ -348,6 +365,7 @@
             // label17
             // 
             this.label17.AutoSize = true;
+            this.label17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.Location = new System.Drawing.Point(421, 366);
             this.label17.Name = "label17";
@@ -359,6 +377,7 @@
             // label16
             // 
             this.label16.AutoSize = true;
+            this.label16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.Location = new System.Drawing.Point(421, 309);
             this.label16.Name = "label16";
@@ -369,6 +388,7 @@
             // label15
             // 
             this.label15.AutoSize = true;
+            this.label15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.Location = new System.Drawing.Point(421, 252);
             this.label15.Name = "label15";
@@ -379,6 +399,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
+            this.label14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.Location = new System.Drawing.Point(418, 197);
             this.label14.Name = "label14";
@@ -389,6 +410,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
+            this.label13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(418, 148);
             this.label13.Name = "label13";
@@ -399,6 +421,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
+            this.label12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(418, 99);
             this.label12.Name = "label12";
@@ -409,6 +432,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
+            this.label11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(418, 56);
             this.label11.Name = "label11";
@@ -419,6 +443,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(13, 306);
             this.label10.Name = "label10";
@@ -430,6 +455,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
+            this.label9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(6, 249);
             this.label9.Name = "label9";
@@ -440,6 +466,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(6, 197);
             this.label8.Name = "label8";
@@ -450,6 +477,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(6, 156);
             this.label7.Name = "label7";
@@ -460,6 +488,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(6, 113);
             this.label6.Name = "label6";
@@ -470,6 +499,7 @@
             // datacomm
             // 
             this.datacomm.AutoSize = true;
+            this.datacomm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.datacomm.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.datacomm.Location = new System.Drawing.Point(13, 61);
             this.datacomm.Name = "datacomm";
@@ -491,7 +521,7 @@
             this.FP_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.FP_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FP_Button.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.FP_Button.Location = new System.Drawing.Point(278, 215);
+            this.FP_Button.Location = new System.Drawing.Point(277, 227);
             this.FP_Button.Name = "FP_Button";
             this.FP_Button.Size = new System.Drawing.Size(108, 53);
             this.FP_Button.TabIndex = 47;
@@ -504,7 +534,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.label3.Location = new System.Drawing.Point(26, 77);
+            this.label3.Location = new System.Drawing.Point(185, 77);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(24, 18);
             this.label3.TabIndex = 46;
@@ -512,7 +542,7 @@
             // 
             // DIBox
             // 
-            this.DIBox.Location = new System.Drawing.Point(142, 81);
+            this.DIBox.Location = new System.Drawing.Point(143, 114);
             this.DIBox.Name = "DIBox";
             this.DIBox.Size = new System.Drawing.Size(100, 20);
             this.DIBox.TabIndex = 45;
@@ -524,7 +554,7 @@
             this.TCF_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.TCF_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TCF_Button.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.TCF_Button.Location = new System.Drawing.Point(278, 144);
+            this.TCF_Button.Location = new System.Drawing.Point(277, 163);
             this.TCF_Button.Name = "TCF_Button";
             this.TCF_Button.Size = new System.Drawing.Size(108, 33);
             this.TCF_Button.TabIndex = 42;
@@ -534,7 +564,7 @@
             // 
             // TCFBOX
             // 
-            this.TCFBOX.Location = new System.Drawing.Point(142, 152);
+            this.TCFBOX.Location = new System.Drawing.Point(143, 172);
             this.TCFBOX.Name = "TCFBOX";
             this.TCFBOX.Size = new System.Drawing.Size(100, 20);
             this.TCFBOX.TabIndex = 41;
@@ -544,7 +574,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.label2.Location = new System.Drawing.Point(3, 233);
+            this.label2.Location = new System.Drawing.Point(3, 256);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(117, 18);
             this.label2.TabIndex = 44;
@@ -552,7 +582,7 @@
             // 
             // FPBox
             // 
-            this.FPBox.Location = new System.Drawing.Point(142, 233);
+            this.FPBox.Location = new System.Drawing.Point(143, 252);
             this.FPBox.Name = "FPBox";
             this.FPBox.Size = new System.Drawing.Size(100, 20);
             this.FPBox.TabIndex = 43;
@@ -562,7 +592,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.label5.Location = new System.Drawing.Point(8, 151);
+            this.label5.Location = new System.Drawing.Point(4, 183);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(100, 18);
             this.label5.TabIndex = 40;
@@ -579,23 +609,13 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(389, 310);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(49, 40);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 74;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
-            // 
             // InternalFP
             // 
-            this.InternalFP.BackColor = System.Drawing.Color.DarkOrchid;
+            this.InternalFP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.InternalFP.Controls.Add(this.pictureBox13);
+            this.InternalFP.Controls.Add(this.pictureBox14);
             this.InternalFP.Controls.Add(this.pictureBox4);
             this.InternalFP.Controls.Add(this.label3);
-            this.InternalFP.Controls.Add(this.pictureBox3);
             this.InternalFP.Controls.Add(this.label5);
             this.InternalFP.Controls.Add(this.FP_Button);
             this.InternalFP.Controls.Add(this.DIBox);
@@ -603,7 +623,7 @@
             this.InternalFP.Controls.Add(this.label2);
             this.InternalFP.Controls.Add(this.TCF_Button);
             this.InternalFP.Controls.Add(this.TCFBOX);
-            this.InternalFP.Location = new System.Drawing.Point(12, 170);
+            this.InternalFP.Location = new System.Drawing.Point(16, 124);
             this.InternalFP.Name = "InternalFP";
             this.InternalFP.Size = new System.Drawing.Size(438, 353);
             this.InternalFP.TabIndex = 52;
@@ -611,7 +631,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(281, 3);
+            this.pictureBox4.Location = new System.Drawing.Point(119, 12);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(150, 50);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -640,6 +660,27 @@
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click_3);
             // 
+            // pictureBox14
+            // 
+            this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
+            this.pictureBox14.Location = new System.Drawing.Point(383, 3);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(52, 39);
+            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox14.TabIndex = 104;
+            this.pictureBox14.TabStop = false;
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Image = global::WindowsFormsApp3.Properties.Resources.fgcf;
+            this.pictureBox13.Location = new System.Drawing.Point(396, 305);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(42, 45);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox13.TabIndex = 105;
+            this.pictureBox13.TabStop = false;
+            this.pictureBox13.Click += new System.EventHandler(this.pictureBox13_Click);
+            // 
             // Factors_for_DI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -660,12 +701,13 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.InternalFP.ResumeLayout(false);
             this.InternalFP.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -711,10 +753,11 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox FPBox;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Panel InternalFP;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox14;
+        private System.Windows.Forms.PictureBox pictureBox13;
     }
 }
