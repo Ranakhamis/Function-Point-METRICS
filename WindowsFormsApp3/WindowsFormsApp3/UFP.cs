@@ -426,15 +426,31 @@ namespace WindowsFormsApp3
             }
             label10.Text = Value1.ToString();
             EIBOX.ResetText();
-            label10.Show();
+            if(Value1 !=0)
+            {
+                label10.Show();
+            }
+            else
+            { label10.Hide(); }
 
             label13.Text = Value2.ToString();
             EIBOX.ResetText();
-            label13.Show();
+            if (Value2 != 0)
+            {
+                label13.Show();
+            }
+            else
+            { label13.Hide(); }
 
             label14.Text = Value3.ToString();
             EIBOX.ResetText();
-            label14.Show();
+            if (Value3 != 0)
+            {
+                label14.Show();
+            }
+            else
+            { label14.Hide(); }
+
         }
 
         private void pictureBox4_Click_1(object sender, EventArgs e)
@@ -456,15 +472,31 @@ namespace WindowsFormsApp3
             }
             label15.Text = Value4.ToString();
             EOBOX.ResetText();
-            label15.Show();
+            if (Value4 != 0)
+            {
+                label15.Show();
+            }
+            else
+            { label15.Hide(); }
 
             label16.Text = Value5.ToString();
             EOBOX.ResetText();
-            label16.Show();
+            if (Value5 != 0)
+            {
+                label16.Show();
+            }
+            else
+            { label16.Hide(); }
 
             label17.Text = Value6.ToString();
             EOBOX.ResetText();
-            label17.Show();
+            if (Value6 != 0)
+            {
+                label17.Show();
+            }
+            else
+            { label17.Hide(); }
+
         }
 
         private void pictureBox5_Click_2(object sender, EventArgs e)
@@ -485,15 +517,30 @@ namespace WindowsFormsApp3
             }
             label18.Text = Value7.ToString();
             EINQBOX.ResetText();
-            label18.Show();
+            if (Value7 != 0)
+            {
+                label18.Show();
+            }
+            else
+            { label18.Hide(); }
 
             label19.Text = Value8.ToString();
             EINQBOX.ResetText();
-            label19.Show();
+            if (Value8 != 0)
+            {
+                label19.Show();
+            }
+            else
+            { label19.Hide(); }
 
             label20.Text = Value9.ToString();
             EINQBOX.ResetText();
-            label20.Show();
+            if (Value9 != 0)
+            {
+                label20.Show();
+            }
+            else
+            { label20.Hide(); }
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
@@ -514,15 +561,30 @@ namespace WindowsFormsApp3
             }
             label24.Text = Value10.ToString();
             ILFBOX.ResetText();
-            label24.Show();
+            if (Value10 != 0)
+            {
+                label24.Show();
+            }
+            else
+            { label24.Hide(); }
 
             label25.Text = Value11.ToString();
             ILFBOX.ResetText();
-            label25.Show();
+            if (Value11 != 0)
+            {
+                label25.Show();
+            }
+            else
+            { label25.Hide(); }
 
             label26.Text = Value12.ToString();
             ILFBOX.ResetText();
-            label26.Show();
+            if (Value12 != 0)
+            {
+                label26.Show();
+            }
+            else
+            { label26.Hide(); }
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
@@ -544,15 +606,31 @@ namespace WindowsFormsApp3
             }
             label27.Text = Value13.ToString();
             EIFBOX.ResetText();
-            label27.Show();
+            if (Value13 != 0)
+            {
+                label27.Show();
+            }
+            else
+            { label27.Hide(); }
+
 
             label28.Text = Value14.ToString();
             EIFBOX.ResetText();
-            label28.Show();
+            if (Value14 != 0)
+            {
+                label28.Show();
+            }
+            else
+            { label28.Hide(); }
 
             label29.Text = Value15.ToString();
             EIFBOX.ResetText();
-            label29.Show();
+            if (Value15 != 0)
+            {
+                label29.Show();
+            }
+            else
+            { label29.Hide(); }
         }
 
         private void pictureBox11_Click(object sender, EventArgs e)
