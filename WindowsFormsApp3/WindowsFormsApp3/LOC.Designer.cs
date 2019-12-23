@@ -34,7 +34,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.AVC_Combo = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.FP_TextBox = new System.Windows.Forms.TextBox();
+            this.FPLOC = new System.Windows.Forms.TextBox();
             this.LOC_Button = new System.Windows.Forms.Button();
             this.LOC_TextBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -96,6 +96,7 @@
             this.AVC_Combo.Name = "AVC_Combo";
             this.AVC_Combo.Size = new System.Drawing.Size(121, 21);
             this.AVC_Combo.TabIndex = 3;
+            this.AVC_Combo.SelectedIndexChanged += new System.EventHandler(this.AVC_Combo_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -108,12 +109,12 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Function point";
             // 
-            // FP_TextBox
+            // FPLOC
             // 
-            this.FP_TextBox.Location = new System.Drawing.Point(315, 216);
-            this.FP_TextBox.Name = "FP_TextBox";
-            this.FP_TextBox.Size = new System.Drawing.Size(121, 20);
-            this.FP_TextBox.TabIndex = 5;
+            this.FPLOC.Location = new System.Drawing.Point(315, 216);
+            this.FPLOC.Name = "FPLOC";
+            this.FPLOC.Size = new System.Drawing.Size(121, 20);
+            this.FPLOC.TabIndex = 5;
             // 
             // LOC_Button
             // 
@@ -169,7 +170,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.LOC_TextBox);
             this.Controls.Add(this.LOC_Button);
-            this.Controls.Add(this.FP_TextBox);
+            this.Controls.Add(this.FPLOC);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.AVC_Combo);
             this.Controls.Add(this.label2);
@@ -179,6 +180,7 @@
             this.Name = "LOC";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LOC";
+            this.Load += new System.EventHandler(this.LOC_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
@@ -193,7 +195,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox AVC_Combo;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox FP_TextBox;
+        private System.Windows.Forms.TextBox FPLOC;
         private System.Windows.Forms.Button LOC_Button;
         private System.Windows.Forms.TextBox LOC_TextBox;
         private System.Windows.Forms.Label label4;
