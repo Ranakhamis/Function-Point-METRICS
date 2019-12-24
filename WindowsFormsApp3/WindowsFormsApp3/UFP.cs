@@ -329,7 +329,9 @@ namespace WindowsFormsApp3
             }
             label10.Text = Value1.ToString();
             EIBOX.ResetText();
-            if(Value1 !=0)
+            comboBox1.ResetText();
+
+            if (Value1 !=0)
             {
                 label10.Show();
             }
@@ -338,6 +340,7 @@ namespace WindowsFormsApp3
 
             label13.Text = Value2.ToString();
             EIBOX.ResetText();
+            comboBox1.ResetText();
             if (Value2 != 0)
             {
                 label13.Show();
@@ -347,6 +350,8 @@ namespace WindowsFormsApp3
 
             label14.Text = Value3.ToString();
             EIBOX.ResetText();
+            comboBox1.ResetText();
+
             if (Value3 != 0)
             {
                 label14.Show();
@@ -375,6 +380,7 @@ namespace WindowsFormsApp3
             }
             label15.Text = Value4.ToString();
             EOBOX.ResetText();
+            comboBox2.ResetText();
             if (Value4 != 0)
             {
                 label15.Show();
@@ -384,6 +390,8 @@ namespace WindowsFormsApp3
 
             label16.Text = Value5.ToString();
             EOBOX.ResetText();
+            comboBox2.ResetText();
+
             if (Value5 != 0)
             {
                 label16.Show();
@@ -393,6 +401,8 @@ namespace WindowsFormsApp3
 
             label17.Text = Value6.ToString();
             EOBOX.ResetText();
+            comboBox2.ResetText();
+
             if (Value6 != 0)
             {
                 label17.Show();
@@ -420,6 +430,8 @@ namespace WindowsFormsApp3
             }
             label18.Text = Value7.ToString();
             EINQBOX.ResetText();
+            comboBox3.ResetText();
+
             if (Value7 != 0)
             {
                 label18.Show();
@@ -429,6 +441,8 @@ namespace WindowsFormsApp3
 
             label19.Text = Value8.ToString();
             EINQBOX.ResetText();
+            comboBox3.ResetText();
+
             if (Value8 != 0)
             {
                 label19.Show();
@@ -438,6 +452,8 @@ namespace WindowsFormsApp3
 
             label20.Text = Value9.ToString();
             EINQBOX.ResetText();
+            comboBox3.ResetText();
+
             if (Value9 != 0)
             {
                 label20.Show();
@@ -464,6 +480,8 @@ namespace WindowsFormsApp3
             }
             label26.Text = Value10.ToString();
             ILFBOX.ResetText();
+            comboBox5.ResetText();
+
             if (Value10 != 0)
             {
                 label26.Show();
@@ -473,6 +491,8 @@ namespace WindowsFormsApp3
 
             label25.Text = Value11.ToString();
             ILFBOX.ResetText();
+            comboBox5.ResetText();
+
             if (Value11 != 0)
             {
                 label25.Show();
@@ -482,6 +502,8 @@ namespace WindowsFormsApp3
 
             label24.Text = Value12.ToString();
             ILFBOX.ResetText();
+            comboBox5.ResetText();
+
             if (Value12 != 0)
             {
                 label24.Show();
@@ -509,6 +531,7 @@ namespace WindowsFormsApp3
             }
             label29.Text = Value13.ToString();
             EIFBOX.ResetText();
+            comboBox4.ResetText();
             if (Value13 != 0)
             {
                 label29.Show();
@@ -519,6 +542,8 @@ namespace WindowsFormsApp3
 
             label28.Text = Value14.ToString();
             EIFBOX.ResetText();
+            comboBox4.ResetText();
+
             if (Value14 != 0)
             {
                 label28.Show();
@@ -528,6 +553,8 @@ namespace WindowsFormsApp3
 
             label27.Text = Value15.ToString();
             EIFBOX.ResetText();
+            comboBox4.ResetText();
+
             if (Value15 != 0)
             {
                 label27.Show();

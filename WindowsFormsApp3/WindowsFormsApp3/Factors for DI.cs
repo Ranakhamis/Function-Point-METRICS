@@ -15,33 +15,37 @@ namespace WindowsFormsApp3
         public static int TotalDI = 0;
         public static float fptcfinternal = 0;
 
-        public static int SumComboBox(ComboBox name)
+        Dictionary<string, int> GSC = new Dictionary<string, int>();
+
+
+        public int SumComboBox(ComboBox name)
         {
+
             int Value = 0;
             if (name.SelectedIndex == 0)
             {
-                Value += 0;
+                Value += GSC["No Influence"];
             }
             if (name.SelectedIndex == 1)
             {
-                Value += 1;
+                Value += GSC["Incidental"];
             }
             if (name.SelectedIndex == 2)
             {
-                Value += 2;
+                Value += GSC["Moderate"];
             }
             if (name.SelectedIndex == 3)
             {
-                Value += 3;
+                Value += GSC["Average"];
 
             }
             if (name.SelectedIndex == 4)
             {
-                Value += 4;
+                Value += GSC["Significant"];
             }
             if (name.SelectedIndex == 5)
             {
-                Value += 5;
+                Value += GSC["Essential"];
             }
 
             return Value;
@@ -115,7 +119,6 @@ namespace WindowsFormsApp3
 
         private void pictureBox2_Click_1(object sender, EventArgs e)
         {
-            //Application.Exit();
         }
 
         private void DIBox_TextChanged(object sender, EventArgs e)
@@ -133,6 +136,13 @@ namespace WindowsFormsApp3
         {
             this.Show();
             InternalFP.Hide();
+
+            GSC.Add("No Influence", 0);
+            GSC.Add("Incidental", 1);
+            GSC.Add("Moderate", 2);
+            GSC.Add("Average", 3);
+            GSC.Add("Significant", 4);
+            GSC.Add("Essential", 5);
         }
 
         private void comboBox14_SelectedIndexChanged(object sender, EventArgs e)
@@ -173,7 +183,17 @@ namespace WindowsFormsApp3
 
         private void TCFBOX_TextChanged(object sender, EventArgs e)
         {
-           // fromtcfinternal = int.Parse(FPBox.Text);
+
+        }
+
+        private void pictureBox14_Click(object sender, EventArgs e)
+        {
+            InternalFP.Hide();
+            
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
 
         }
     }

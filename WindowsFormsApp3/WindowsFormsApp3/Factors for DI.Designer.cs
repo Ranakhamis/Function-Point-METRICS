@@ -122,6 +122,7 @@
             this.groupBox1.TabIndex = 24;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Normal Factors";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // label1
             // 
@@ -614,7 +615,7 @@
             this.InternalFP.Controls.Add(this.label2);
             this.InternalFP.Controls.Add(this.TCF_Button);
             this.InternalFP.Controls.Add(this.TCFBOX);
-            this.InternalFP.Location = new System.Drawing.Point(19, 53);
+            this.InternalFP.Location = new System.Drawing.Point(19, 21);
             this.InternalFP.Name = "InternalFP";
             this.InternalFP.Size = new System.Drawing.Size(438, 353);
             this.InternalFP.TabIndex = 52;
@@ -639,6 +640,7 @@
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox14.TabIndex = 104;
             this.pictureBox14.TabStop = false;
+            this.pictureBox14.Click += new System.EventHandler(this.pictureBox14_Click);
             // 
             // pictureBox4
             // 
