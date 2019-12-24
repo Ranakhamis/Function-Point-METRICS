@@ -40,10 +40,11 @@ namespace WindowsFormsApp3
         {
             if (InternelDI_RadioButton.Checked == true)
             {
-
+                internalDIbool = true;
                 Factors_for_DI f = new Factors_for_DI();
                 f.Show();
                 this.Hide();
+                
             }
 
         }
@@ -73,6 +74,7 @@ namespace WindowsFormsApp3
 
         private void TCFBox_TextChanged(object sender, EventArgs e)
         {
+           // fromtcfexternal = int.Parse(TCFBOX.Text);
 
         }
 
@@ -119,7 +121,8 @@ namespace WindowsFormsApp3
         private void button1_Click(object sender, EventArgs e) //internal
         {
                 TCFBOX.Text = (0.65 + 0.01 * double.Parse(DIBox.Text)).ToString();
-     
+//            fromtcfexternal = int.Parse(TCFBOX.Text);
+
         }
         private void button1_Click_1(object sender, EventArgs e) //external
         {
@@ -154,7 +157,7 @@ namespace WindowsFormsApp3
         {
             if (ExternelDI_RadioButton.Checked == true)
             {
-
+                externalDIbool = true;
                 ExternelDI_Panel.Show();
             }
         }

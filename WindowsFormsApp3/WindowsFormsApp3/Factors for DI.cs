@@ -117,12 +117,12 @@ namespace WindowsFormsApp3
             internel = true;
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void pictureBox2_Click_3(object sender, EventArgs e)
         {
-           
+            Application.Exit();
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
+        private void pictureBox13_Click(object sender, EventArgs e)
         {
            
         }

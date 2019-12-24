@@ -21,3 +21,15 @@ D:\First Term - 4th Year\SW Metrics\Project\MY-METRICS\WindowsFormsApp3\WindowsF
 D:\First Term - 4th Year\SW Metrics\Project\MY-METRICS\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
 D:\First Term - 4th Year\SW Metrics\Project\MY-METRICS\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
 D:\First Term - 4th Year\SW Metrics\Project\MY-METRICS\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.LOC.resources
+C:\Users\Rana\source\repos\WindowsFormsApp3\MY-METRICS\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+C:\Users\Rana\source\repos\WindowsFormsApp3\MY-METRICS\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Factors_for_DI.resources
+C:\Users\Rana\source\repos\WindowsFormsApp3\MY-METRICS\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.LOC.resources
+C:\Users\Rana\source\repos\WindowsFormsApp3\MY-METRICS\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\Rana\source\repos\WindowsFormsApp3\MY-METRICS\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.TCF.resources
+C:\Users\Rana\source\repos\WindowsFormsApp3\MY-METRICS\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.UFP.resources
+C:\Users\Rana\source\repos\WindowsFormsApp3\MY-METRICS\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\Rana\source\repos\WindowsFormsApp3\MY-METRICS\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\Rana\source\repos\WindowsFormsApp3\MY-METRICS\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\Rana\source\repos\WindowsFormsApp3\MY-METRICS\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\Rana\source\repos\WindowsFormsApp3\MY-METRICS\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\Rana\source\repos\WindowsFormsApp3\MY-METRICS\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb

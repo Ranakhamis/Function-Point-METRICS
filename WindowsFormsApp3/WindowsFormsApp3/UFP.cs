@@ -13,7 +13,7 @@ namespace WindowsFormsApp3
 {
     public partial class UFP : Form
     {
-        float TotalUFP = 0;
+
         public static float PassedUFP = 0;
         public int Value = 0;
 
@@ -52,6 +52,9 @@ namespace WindowsFormsApp3
         {
             InitializeComponent();
         }
+
+
+       
 
         private void EI_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -472,6 +475,17 @@ namespace WindowsFormsApp3
         {
             Application.Exit();
         }
+        //public void return_function(TextBox T)
+        //{
+        //    if (T.Text == "")
+        //    {
+        //        T.Text = 0.ToString();
+        //    }
+        //    //else
+        //    //{
+        //    //    return T;
+        //    //}
+        //}
 
         private void pictureBox3_Click_1(object sender, EventArgs e)
         {
@@ -481,3 +495,4 @@ namespace WindowsFormsApp3
         }
     }
 }
+
