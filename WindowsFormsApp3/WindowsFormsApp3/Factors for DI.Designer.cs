@@ -67,13 +67,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.FPBox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -108,12 +108,12 @@
             this.groupBox1.Controls.Add(this.datacomm);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(168, 22);
+            this.groupBox1.Location = new System.Drawing.Point(127, 24);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(697, 363);
             this.groupBox1.TabIndex = 24;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Normal Factors";
+            this.groupBox1.Text = "General System Characteristic ";
             // 
             // label1
             // 
@@ -466,10 +466,10 @@
             // 
             // FP_Button
             // 
-            this.FP_Button.BackColor = System.Drawing.Color.White;
+            this.FP_Button.BackColor = System.Drawing.Color.SaddleBrown;
             this.FP_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FP_Button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.FP_Button.Location = new System.Drawing.Point(786, 401);
+            this.FP_Button.ForeColor = System.Drawing.Color.White;
+            this.FP_Button.Location = new System.Drawing.Point(730, 417);
             this.FP_Button.Name = "FP_Button";
             this.FP_Button.Size = new System.Drawing.Size(108, 53);
             this.FP_Button.TabIndex = 47;
@@ -481,7 +481,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(216, 418);
+            this.label3.Location = new System.Drawing.Point(131, 417);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(24, 18);
             this.label3.TabIndex = 46;
@@ -489,17 +489,17 @@
             // 
             // DIBox
             // 
-            this.DIBox.Location = new System.Drawing.Point(352, 416);
+            this.DIBox.Location = new System.Drawing.Point(200, 415);
             this.DIBox.Name = "DIBox";
             this.DIBox.Size = new System.Drawing.Size(100, 20);
             this.DIBox.TabIndex = 45;
             // 
             // TCF_Button
             // 
-            this.TCF_Button.BackColor = System.Drawing.Color.White;
+            this.TCF_Button.BackColor = System.Drawing.Color.SaddleBrown;
             this.TCF_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TCF_Button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.TCF_Button.Location = new System.Drawing.Point(489, 455);
+            this.TCF_Button.ForeColor = System.Drawing.Color.White;
+            this.TCF_Button.Location = new System.Drawing.Point(331, 448);
             this.TCF_Button.Name = "TCF_Button";
             this.TCF_Button.Size = new System.Drawing.Size(88, 33);
             this.TCF_Button.TabIndex = 42;
@@ -509,7 +509,7 @@
             // 
             // TCFBOX
             // 
-            this.TCFBOX.Location = new System.Drawing.Point(352, 463);
+            this.TCFBOX.Location = new System.Drawing.Point(199, 453);
             this.TCFBOX.Name = "TCFBOX";
             this.TCFBOX.Size = new System.Drawing.Size(100, 20);
             this.TCFBOX.TabIndex = 41;
@@ -518,7 +518,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(529, 419);
+            this.label2.Location = new System.Drawing.Point(457, 436);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(117, 18);
             this.label2.TabIndex = 44;
@@ -526,7 +526,7 @@
             // 
             // FPBox
             // 
-            this.FPBox.Location = new System.Drawing.Point(661, 419);
+            this.FPBox.Location = new System.Drawing.Point(594, 437);
             this.FPBox.Name = "FPBox";
             this.FPBox.Size = new System.Drawing.Size(100, 20);
             this.FPBox.TabIndex = 43;
@@ -535,53 +535,54 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(181, 463);
+            this.label5.Location = new System.Drawing.Point(87, 455);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(100, 18);
             this.label5.TabIndex = 40;
             this.label5.Text = "TCF Internal";
             // 
-            // pictureBox1
+            // pictureBox5
             // 
-            this.pictureBox1.Image = global::WindowsFormsApp3.Properties.Resources.hgv;
-            this.pictureBox1.Location = new System.Drawing.Point(23, 489);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(39, 40);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 26;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::WindowsFormsApp3.Properties.Resources.fgcf;
-            this.pictureBox3.Location = new System.Drawing.Point(855, 489);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(39, 40);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 74;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(830, 3);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(100, 78);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 127;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(837, 2);
+            this.pictureBox2.Location = new System.Drawing.Point(830, 488);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(79, 29);
+            this.pictureBox2.Size = new System.Drawing.Size(100, 53);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 101;
+            this.pictureBox2.TabIndex = 128;
             this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click_1);
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click_2);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(-2, 488);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(100, 53);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 130;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click_1);
             // 
             // Factors_for_DI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ClientSize = new System.Drawing.Size(916, 541);
-            this.Controls.Add(this.pictureBox2);
+            this.BackColor = System.Drawing.Color.SteelBlue;
+            this.ClientSize = new System.Drawing.Size(932, 552);
             this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.FP_Button);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.DIBox);
@@ -590,17 +591,17 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.FPBox);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Factors_for_DI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Factors_for_DI";
+            this.Load += new System.EventHandler(this.Factors_for_DI_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -638,7 +639,6 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ComboBox comboBox5;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button FP_Button;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox DIBox;
@@ -647,7 +647,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox FPBox;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }

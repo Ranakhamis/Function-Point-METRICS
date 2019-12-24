@@ -14,6 +14,8 @@ namespace WindowsFormsApp3
     {
         public int avc_value = 0;
         public float loc = 0;
+        public static float Externel_FP;
+        public static bool Externel = false;
         public TCF()
         {
             InitializeComponent();
@@ -159,12 +161,38 @@ namespace WindowsFormsApp3
 
         private void button1_Click_3(object sender, EventArgs e)
         {
+            Externel_FP = (UFP.PassedUFP * float.Parse(TCFBOX.Text));
             FPBox.Text = (UFP.PassedUFP * float.Parse(TCFBOX.Text)).ToString();
+            Externel = true;
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
+            
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
             Application.Exit();
+        }
+
+        private void pictureBox3_Click_1(object sender, EventArgs e)
+        {
+            LOC loc = new LOC();
+            loc.Show();
+            this.Hide();
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+            UFP ufp = new UFP();
+            ufp.Show();
+            this.Hide();
         }
     }
 }

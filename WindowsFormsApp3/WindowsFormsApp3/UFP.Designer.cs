@@ -29,32 +29,20 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UFP));
-            this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.EIFBOX = new System.Windows.Forms.TextBox();
             this.ILFBOX = new System.Windows.Forms.TextBox();
             this.EINQBOX = new System.Windows.Forms.TextBox();
             this.EOBOX = new System.Windows.Forms.TextBox();
             this.EIBOX = new System.Windows.Forms.TextBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.EIF = new System.Windows.Forms.ComboBox();
             this.ILF = new System.Windows.Forms.ComboBox();
             this.EINQ = new System.Windows.Forms.ComboBox();
             this.EO = new System.Windows.Forms.ComboBox();
             this.EI = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.Result = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -62,24 +50,42 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.EIFC = new System.Windows.Forms.Label();
+            this.EIFA = new System.Windows.Forms.Label();
+            this.ILFC = new System.Windows.Forms.Label();
+            this.ILFA = new System.Windows.Forms.Label();
+            this.EQC = new System.Windows.Forms.Label();
+            this.EQA = new System.Windows.Forms.Label();
+            this.EOC = new System.Windows.Forms.Label();
+            this.EOA = new System.Windows.Forms.Label();
+            this.EIC = new System.Windows.Forms.Label();
+            this.EIA = new System.Windows.Forms.Label();
+            this.EIFS = new System.Windows.Forms.Label();
+            this.ILFS = new System.Windows.Forms.Label();
+            this.EQS = new System.Windows.Forms.Label();
+            this.EOS = new System.Windows.Forms.Label();
+            this.EIS = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(738, 103);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(177, 16);
-            this.label9.TabIndex = 97;
-            this.label9.Text = "Total Number Of Factors";
             // 
             // label8
             // 
@@ -125,85 +131,6 @@
             this.label1.TabIndex = 93;
             this.label1.Text = "Parameters";
             // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(752, 348);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(100, 20);
-            this.textBox10.TabIndex = 92;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(752, 295);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 20);
-            this.textBox9.TabIndex = 91;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(752, 248);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 20);
-            this.textBox8.TabIndex = 90;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(752, 201);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 89;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(752, 150);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
-            this.textBox6.TabIndex = 88;
-            // 
-            // radioButton5
-            // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(541, 351);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(119, 17);
-            this.radioButton5.TabIndex = 87;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "New EIF Complexity";
-            this.radioButton5.UseVisualStyleBackColor = true;
-            // 
-            // radioButton4
-            // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(542, 299);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(118, 17);
-            this.radioButton4.TabIndex = 86;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "New ILF Complexity";
-            this.radioButton4.UseVisualStyleBackColor = true;
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(541, 249);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(132, 17);
-            this.radioButton3.TabIndex = 85;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "New E INQ Complexity";
-            this.radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(542, 200);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(118, 17);
-            this.radioButton2.TabIndex = 84;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "New EO Complexity";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
             // EIFBOX
             // 
             this.EIFBOX.Location = new System.Drawing.Point(375, 348);
@@ -239,17 +166,6 @@
             this.EIBOX.Size = new System.Drawing.Size(121, 20);
             this.EIBOX.TabIndex = 79;
             // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(543, 151);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(113, 17);
-            this.radioButton1.TabIndex = 78;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "New EI Complexity";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
             // EIF
             // 
             this.EIF.AutoCompleteCustomSource.AddRange(new string[] {
@@ -258,7 +174,12 @@
             "Average (7)",
             "",
             "Complex (10)"});
+            this.EIF.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EIF.FormattingEnabled = true;
+            this.EIF.Items.AddRange(new object[] {
+            "Simple (5)",
+            "Average (7)",
+            "Complex (10)"});
             this.EIF.Location = new System.Drawing.Point(230, 348);
             this.EIF.Name = "EIF";
             this.EIF.Size = new System.Drawing.Size(121, 21);
@@ -272,7 +193,12 @@
             "Average (10)",
             "",
             "Complex (15)"});
+            this.ILF.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ILF.FormattingEnabled = true;
+            this.ILF.Items.AddRange(new object[] {
+            "Simple (7)",
+            "Average (10)",
+            "Complex (15)"});
             this.ILF.Location = new System.Drawing.Point(230, 294);
             this.ILF.Name = "ILF";
             this.ILF.Size = new System.Drawing.Size(121, 21);
@@ -286,7 +212,12 @@
             "Average (4)",
             "",
             "Complex (6)"});
+            this.EINQ.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EINQ.FormattingEnabled = true;
+            this.EINQ.Items.AddRange(new object[] {
+            "Simple (3)",
+            "Average (4)",
+            "Complex (6)"});
             this.EINQ.Location = new System.Drawing.Point(230, 244);
             this.EINQ.Name = "EINQ";
             this.EINQ.Size = new System.Drawing.Size(121, 21);
@@ -300,7 +231,12 @@
             "Average (5)",
             "",
             "Complex (7)"});
+            this.EO.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EO.FormattingEnabled = true;
+            this.EO.Items.AddRange(new object[] {
+            "Simple (4)",
+            "Average (5)",
+            "Complex (7)"});
             this.EO.Location = new System.Drawing.Point(230, 194);
             this.EO.Name = "EO";
             this.EO.Size = new System.Drawing.Size(121, 21);
@@ -314,25 +250,17 @@
             "Average (4)",
             "",
             "Complex (6)"});
+            this.EI.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EI.FormattingEnabled = true;
+            this.EI.Items.AddRange(new object[] {
+            "Simple (3)",
+            "Average (4)",
+            "Complex (6)"});
             this.EI.Location = new System.Drawing.Point(230, 150);
             this.EI.Name = "EI";
             this.EI.Size = new System.Drawing.Size(121, 21);
             this.EI.TabIndex = 73;
             this.EI.SelectedIndexChanged += new System.EventHandler(this.EI_SelectedIndexChanged);
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.button1.Location = new System.Drawing.Point(670, 414);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(91, 31);
-            this.button1.TabIndex = 71;
-            this.button1.Text = "Result";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Result
             // 
@@ -346,7 +274,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(269, 420);
+            this.label10.Location = new System.Drawing.Point(318, 418);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(116, 18);
             this.label10.TabIndex = 69;
@@ -407,73 +335,404 @@
             this.label2.TabIndex = 64;
             this.label2.Text = "External Input";
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::WindowsFormsApp3.Properties.Resources.fgcf;
-            this.pictureBox2.Location = new System.Drawing.Point(862, 430);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(39, 40);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 98;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 21);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(150, 50);
+            this.pictureBox1.Size = new System.Drawing.Size(197, 78);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 99;
             this.pictureBox1.TabStop = false;
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.Black;
+            this.label9.Location = new System.Drawing.Point(718, 103);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(56, 16);
+            this.label9.TabIndex = 101;
+            this.label9.Text = "Simple";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.Black;
+            this.label11.Location = new System.Drawing.Point(795, 103);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(67, 16);
+            this.label11.TabIndex = 102;
+            this.label11.Text = "Average";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.Black;
+            this.label13.Location = new System.Drawing.Point(882, 103);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(68, 16);
+            this.label13.TabIndex = 103;
+            this.label13.Text = "Complex";
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.SaddleBrown;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.button2.Location = new System.Drawing.Point(526, 145);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(152, 37);
+            this.button2.TabIndex = 119;
+            this.button2.Text = "Externel Input";
+            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.SaddleBrown;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
+            this.button3.Location = new System.Drawing.Point(526, 188);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(162, 37);
+            this.button3.TabIndex = 120;
+            this.button3.Text = "Externel Output";
+            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.SaddleBrown;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
+            this.button4.Location = new System.Drawing.Point(526, 235);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(161, 37);
+            this.button4.TabIndex = 121;
+            this.button4.Text = "Externel Inquiry";
+            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.SaddleBrown;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
+            this.button5.Location = new System.Drawing.Point(526, 284);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(161, 44);
+            this.button5.TabIndex = 122;
+            this.button5.Text = "Internel Logical File";
+            this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.SaddleBrown;
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.White;
+            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
+            this.button6.Location = new System.Drawing.Point(526, 337);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(161, 45);
+            this.button6.TabIndex = 123;
+            this.button6.Text = "Externel Interface Files";
+            this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(632, 388);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(82, 84);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 124;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(945, 3);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(100, 78);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 125;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
+            // 
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(846, 21);
+            this.pictureBox3.Location = new System.Drawing.Point(957, 422);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(79, 29);
+            this.pictureBox3.Size = new System.Drawing.Size(100, 50);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 100;
+            this.pictureBox3.TabIndex = 126;
             this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click_1);
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.ForestGreen;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.White;
+            this.label14.Location = new System.Drawing.Point(645, 402);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(56, 18);
+            this.label14.TabIndex = 127;
+            this.label14.Text = "Result";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.Maroon;
+            this.label15.Location = new System.Drawing.Point(316, 52);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(448, 29);
+            this.label15.TabIndex = 128;
+            this.label15.Text = "Calculate Unadjusted Function Points";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Tan;
+            this.panel1.Controls.Add(this.EIFC);
+            this.panel1.Controls.Add(this.EIFA);
+            this.panel1.Controls.Add(this.ILFC);
+            this.panel1.Controls.Add(this.ILFA);
+            this.panel1.Controls.Add(this.EQC);
+            this.panel1.Controls.Add(this.EQA);
+            this.panel1.Controls.Add(this.EOC);
+            this.panel1.Controls.Add(this.EOA);
+            this.panel1.Controls.Add(this.EIC);
+            this.panel1.Controls.Add(this.EIA);
+            this.panel1.Controls.Add(this.EIFS);
+            this.panel1.Controls.Add(this.ILFS);
+            this.panel1.Controls.Add(this.EQS);
+            this.panel1.Controls.Add(this.EOS);
+            this.panel1.Controls.Add(this.EIS);
+            this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel1.Location = new System.Drawing.Point(703, 145);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(280, 237);
+            this.panel1.TabIndex = 129;
+            // 
+            // EIFC
+            // 
+            this.EIFC.AutoSize = true;
+            this.EIFC.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EIFC.ForeColor = System.Drawing.Color.Black;
+            this.EIFC.Location = new System.Drawing.Point(196, 209);
+            this.EIFC.Name = "EIFC";
+            this.EIFC.Size = new System.Drawing.Size(59, 18);
+            this.EIFC.TabIndex = 133;
+            this.EIFC.Text = "Simple";
+            // 
+            // EIFA
+            // 
+            this.EIFA.AutoSize = true;
+            this.EIFA.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EIFA.ForeColor = System.Drawing.Color.Black;
+            this.EIFA.Location = new System.Drawing.Point(107, 208);
+            this.EIFA.Name = "EIFA";
+            this.EIFA.Size = new System.Drawing.Size(59, 18);
+            this.EIFA.TabIndex = 132;
+            this.EIFA.Text = "Simple";
+            // 
+            // ILFC
+            // 
+            this.ILFC.AutoSize = true;
+            this.ILFC.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ILFC.ForeColor = System.Drawing.Color.Black;
+            this.ILFC.Location = new System.Drawing.Point(194, 159);
+            this.ILFC.Name = "ILFC";
+            this.ILFC.Size = new System.Drawing.Size(59, 18);
+            this.ILFC.TabIndex = 131;
+            this.ILFC.Text = "Simple";
+            // 
+            // ILFA
+            // 
+            this.ILFA.AutoSize = true;
+            this.ILFA.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ILFA.ForeColor = System.Drawing.Color.Black;
+            this.ILFA.Location = new System.Drawing.Point(106, 157);
+            this.ILFA.Name = "ILFA";
+            this.ILFA.Size = new System.Drawing.Size(59, 18);
+            this.ILFA.TabIndex = 130;
+            this.ILFA.Text = "Simple";
+            // 
+            // EQC
+            // 
+            this.EQC.AutoSize = true;
+            this.EQC.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EQC.ForeColor = System.Drawing.Color.Black;
+            this.EQC.Location = new System.Drawing.Point(194, 107);
+            this.EQC.Name = "EQC";
+            this.EQC.Size = new System.Drawing.Size(59, 18);
+            this.EQC.TabIndex = 129;
+            this.EQC.Text = "Simple";
+            // 
+            // EQA
+            // 
+            this.EQA.AutoSize = true;
+            this.EQA.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EQA.ForeColor = System.Drawing.Color.Black;
+            this.EQA.Location = new System.Drawing.Point(106, 108);
+            this.EQA.Name = "EQA";
+            this.EQA.Size = new System.Drawing.Size(59, 18);
+            this.EQA.TabIndex = 128;
+            this.EQA.Text = "Simple";
+            // 
+            // EOC
+            // 
+            this.EOC.AutoSize = true;
+            this.EOC.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EOC.ForeColor = System.Drawing.Color.Black;
+            this.EOC.Location = new System.Drawing.Point(196, 58);
+            this.EOC.Name = "EOC";
+            this.EOC.Size = new System.Drawing.Size(59, 18);
+            this.EOC.TabIndex = 127;
+            this.EOC.Text = "Simple";
+            // 
+            // EOA
+            // 
+            this.EOA.AutoSize = true;
+            this.EOA.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EOA.ForeColor = System.Drawing.Color.Black;
+            this.EOA.Location = new System.Drawing.Point(107, 58);
+            this.EOA.Name = "EOA";
+            this.EOA.Size = new System.Drawing.Size(59, 18);
+            this.EOA.TabIndex = 126;
+            this.EOA.Text = "Simple";
+            // 
+            // EIC
+            // 
+            this.EIC.AutoSize = true;
+            this.EIC.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EIC.ForeColor = System.Drawing.Color.Black;
+            this.EIC.Location = new System.Drawing.Point(194, 11);
+            this.EIC.Name = "EIC";
+            this.EIC.Size = new System.Drawing.Size(59, 18);
+            this.EIC.TabIndex = 125;
+            this.EIC.Text = "Simple";
+            // 
+            // EIA
+            // 
+            this.EIA.AutoSize = true;
+            this.EIA.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EIA.ForeColor = System.Drawing.Color.Black;
+            this.EIA.Location = new System.Drawing.Point(106, 11);
+            this.EIA.Name = "EIA";
+            this.EIA.Size = new System.Drawing.Size(59, 18);
+            this.EIA.TabIndex = 124;
+            this.EIA.Text = "Simple";
+            // 
+            // EIFS
+            // 
+            this.EIFS.AutoSize = true;
+            this.EIFS.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EIFS.ForeColor = System.Drawing.Color.Black;
+            this.EIFS.Location = new System.Drawing.Point(18, 207);
+            this.EIFS.Name = "EIFS";
+            this.EIFS.Size = new System.Drawing.Size(59, 18);
+            this.EIFS.TabIndex = 123;
+            this.EIFS.Text = "Simple";
+            // 
+            // ILFS
+            // 
+            this.ILFS.AutoSize = true;
+            this.ILFS.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ILFS.ForeColor = System.Drawing.Color.Black;
+            this.ILFS.Location = new System.Drawing.Point(18, 159);
+            this.ILFS.Name = "ILFS";
+            this.ILFS.Size = new System.Drawing.Size(59, 18);
+            this.ILFS.TabIndex = 122;
+            this.ILFS.Text = "Simple";
+            // 
+            // EQS
+            // 
+            this.EQS.AutoSize = true;
+            this.EQS.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EQS.ForeColor = System.Drawing.Color.Black;
+            this.EQS.Location = new System.Drawing.Point(18, 108);
+            this.EQS.Name = "EQS";
+            this.EQS.Size = new System.Drawing.Size(59, 18);
+            this.EQS.TabIndex = 121;
+            this.EQS.Text = "Simple";
+            // 
+            // EOS
+            // 
+            this.EOS.AutoSize = true;
+            this.EOS.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EOS.ForeColor = System.Drawing.Color.Black;
+            this.EOS.Location = new System.Drawing.Point(18, 58);
+            this.EOS.Name = "EOS";
+            this.EOS.Size = new System.Drawing.Size(59, 18);
+            this.EOS.TabIndex = 120;
+            this.EOS.Text = "Simple";
+            // 
+            // EIS
+            // 
+            this.EIS.AutoSize = true;
+            this.EIS.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EIS.ForeColor = System.Drawing.Color.Black;
+            this.EIS.Location = new System.Drawing.Point(18, 11);
+            this.EIS.Name = "EIS";
+            this.EIS.Size = new System.Drawing.Size(59, 18);
+            this.EIS.TabIndex = 119;
+            this.EIS.Text = "Simple";
             // 
             // UFP
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ClientSize = new System.Drawing.Size(927, 482);
+            this.BackColor = System.Drawing.Color.SteelBlue;
+            this.ClientSize = new System.Drawing.Size(1057, 482);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.label14);
             this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.label13);
             this.Controls.Add(this.label9);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.radioButton5);
-            this.Controls.Add(this.radioButton4);
-            this.Controls.Add(this.radioButton3);
-            this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.EIFBOX);
             this.Controls.Add(this.ILFBOX);
             this.Controls.Add(this.EINQBOX);
             this.Controls.Add(this.EOBOX);
             this.Controls.Add(this.EIBOX);
-            this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.EIF);
             this.Controls.Add(this.ILF);
             this.Controls.Add(this.EINQ);
             this.Controls.Add(this.EO);
             this.Controls.Add(this.EI);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.Result);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label6);
@@ -481,47 +740,38 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
+            this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "UFP";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.UFP_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.TextBox EIFBOX;
         private System.Windows.Forms.TextBox ILFBOX;
         private System.Windows.Forms.TextBox EINQBOX;
         private System.Windows.Forms.TextBox EOBOX;
         private System.Windows.Forms.TextBox EIBOX;
-        private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.ComboBox EIF;
         private System.Windows.Forms.ComboBox ILF;
         private System.Windows.Forms.ComboBox EINQ;
         private System.Windows.Forms.ComboBox EO;
         private System.Windows.Forms.ComboBox EI;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox Result;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label6;
@@ -529,8 +779,35 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label EIFC;
+        private System.Windows.Forms.Label EIFA;
+        private System.Windows.Forms.Label ILFC;
+        private System.Windows.Forms.Label ILFA;
+        private System.Windows.Forms.Label EQC;
+        private System.Windows.Forms.Label EQA;
+        private System.Windows.Forms.Label EOC;
+        private System.Windows.Forms.Label EOA;
+        private System.Windows.Forms.Label EIC;
+        private System.Windows.Forms.Label EIA;
+        private System.Windows.Forms.Label EIFS;
+        private System.Windows.Forms.Label ILFS;
+        private System.Windows.Forms.Label EQS;
+        private System.Windows.Forms.Label EOS;
+        private System.Windows.Forms.Label EIS;
     }
 }
