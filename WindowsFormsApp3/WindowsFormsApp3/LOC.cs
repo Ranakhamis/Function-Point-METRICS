@@ -27,12 +27,12 @@ namespace WindowsFormsApp3
             //fp = ufp* tcf;
             if(TCF.externalDIbool == true)
             {
-                FPLOC.Text = ((UFP.PassedUFP) * (TCF.fromtcfexternal)).ToString();
+                FPLOC.Text = (TCF.fptcfexternal).ToString();
 
             }
             if(TCF.internalDIbool == true)
             {
-                FPLOC.Text = ((UFP.PassedUFP) * (Factors_for_DI.fromtcfinternal)).ToString();
+                FPLOC.Text = (Factors_for_DI.fptcfinternal).ToString();
             }
 
             if (AVC_Combo.SelectedIndex == 0)

@@ -13,7 +13,7 @@ namespace WindowsFormsApp3
     public partial class Factors_for_DI : Form
     {
         public static int TotalDI = 0;
-        public static int fromtcfinternal = 0;
+        public static float fptcfinternal = 0;
 
         public static int SumComboBox(ComboBox name)
         {
@@ -109,15 +109,8 @@ namespace WindowsFormsApp3
         private void FP_Button_Click(object sender, EventArgs e)
         {
             FPBox.Text = (UFP.PassedUFP * float.Parse(TCFBOX.Text)).ToString();
-        }
+            fptcfinternal = float.Parse(FPBox.Text);
 
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
         }
 
         private void pictureBox2_Click_1(object sender, EventArgs e)

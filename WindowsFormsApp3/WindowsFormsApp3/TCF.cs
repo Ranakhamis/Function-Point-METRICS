@@ -14,7 +14,7 @@ namespace WindowsFormsApp3
     {
         public int avc_value = 0;
         public float loc = 0;
-        public static int fromtcfexternal = 0;
+        public static float fptcfexternal = 0;
         public static bool externalDIbool = false;
         public static bool internalDIbool = false;
 
@@ -123,6 +123,7 @@ namespace WindowsFormsApp3
         private void button1_Click(object sender, EventArgs e) //internal
         {
                 TCFBOX.Text = (0.65 + 0.01 * double.Parse(DIBox.Text)).ToString();
+//            fromtcfexternal = int.Parse(TCFBOX.Text);
 
         }
         private void button1_Click_1(object sender, EventArgs e) //external
@@ -166,6 +167,7 @@ namespace WindowsFormsApp3
         private void button1_Click_3(object sender, EventArgs e)
         {
             FPBox.Text = (UFP.PassedUFP * float.Parse(TCFBOX.Text)).ToString();
+            fptcfexternal = float.Parse(FPBox.Text);
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
