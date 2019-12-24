@@ -24,8 +24,17 @@ namespace WindowsFormsApp3
 
         private void LOC_Button_Click(object sender, EventArgs e)
         {
-            //FPLOC.Text = TCF.fpvaluefromtcf.ToString();
-            
+            //fp = ufp* tcf;
+            if(TCF.externalDIbool == true)
+            {
+                FPLOC.Text = ((UFP.PassedUFP) * (TCF.fromtcfexternal)).ToString();
+
+            }
+            if(TCF.internalDIbool == true)
+            {
+                FPLOC.Text = ((UFP.PassedUFP) * (Factors_for_DI.fromtcfinternal)).ToString();
+            }
+
             if (AVC_Combo.SelectedIndex == 0)
             {
                 val1 = 320;

@@ -85,9 +85,9 @@
             this.label2.ForeColor = System.Drawing.Color.Purple;
             this.label2.Location = new System.Drawing.Point(63, 97);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 18);
+            this.label2.Size = new System.Drawing.Size(106, 18);
             this.label2.TabIndex = 4;
-            this.label2.Text = "TCF Internal";
+            this.label2.Text = "TCF External";
             // 
             // TCFBOX
             // 

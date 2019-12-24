@@ -568,6 +568,7 @@
             this.TCFBOX.Name = "TCFBOX";
             this.TCFBOX.Size = new System.Drawing.Size(100, 20);
             this.TCFBOX.TabIndex = 41;
+            this.TCFBOX.TextChanged += new System.EventHandler(this.TCFBOX_TextChanged);
             // 
             // label2
             // 
@@ -586,6 +587,7 @@
             this.FPBox.Name = "FPBox";
             this.FPBox.Size = new System.Drawing.Size(100, 20);
             this.FPBox.TabIndex = 43;
+            this.FPBox.TextChanged += new System.EventHandler(this.FPBox_TextChanged);
             // 
             // label5
             // 

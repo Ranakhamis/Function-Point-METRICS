@@ -13,6 +13,8 @@ namespace WindowsFormsApp3
     public partial class Factors_for_DI : Form
     {
         public static int TotalDI = 0;
+        public static int fromtcfinternal = 0;
+
         public static int SumComboBox(ComboBox name)
         {
             int Value = 0;
@@ -169,6 +171,17 @@ namespace WindowsFormsApp3
             TCF T = new TCF();
             T.Show();
             this.Hide();
+        }
+
+        private void FPBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TCFBOX_TextChanged(object sender, EventArgs e)
+        {
+           // fromtcfinternal = int.Parse(FPBox.Text);
+
         }
     }
 }
